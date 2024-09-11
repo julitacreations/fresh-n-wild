@@ -1,5 +1,14 @@
 /*  NOTES
 
+dark bg colour: 231F1F
+light accent colour: EEE4C5
+light background colour: FCFAF5
+golden accent: C7A930
+
+Main Font: Rubik
+Accent Font: Corinthia
+
+
 */
 
 /*  CSS reset */
@@ -11,7 +20,6 @@
 
 /* Gridlex reset 
 [class*="col-"], [class*="col_"], [class~="col"]  {padding:0;}
-﻿
 [class*="grid-"], [class*="grid_"], [class~="grid"] {margin:0;} */
 
 /*Or :
@@ -30,15 +38,14 @@ img { max-width: 100%; }
     border: 2px solid rgb(200,200,200);
 } */
 
- html, 
+ /* html,  
 body {
     border: none;
 } 
 
  h1,h2,h3,h4,h5,h6,p, a {
     border: 2px solid rgb(179, 84, 84);
-} 
-
+} */
 
 
 
@@ -117,8 +124,8 @@ body {
 /* Typography font styles———-————————-—*/
 
 body {
-    font-family: 'Catamaran', sans-serif;
-    color:#192B37;
+    font-family: 'Rubik', sans-serif;
+    color:#231F1F;
 }
 
 
@@ -130,6 +137,7 @@ h2, h3, h4, h5, h6 {
 p {
 	line-height: 1.4; 
 	margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
 h1:last-child, 
@@ -149,24 +157,43 @@ a {
 }
 
 a:hover {
-    color:#FFBE00;
+    color:#C7A930;
 }
 
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1.5px solid #C7A930;
+    border-radius: 0.2rem;
+    color: #C7A930;
+    letter-spacing: 0.01em;
+    padding: 0.5rem 1rem;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #C7A930;
+    color: white;
+}
 
 
 
 /* General typography & universal styles——————-———*/
 
-.bg-featured { background-color: #018ca2;  }
-.bg-dark     { background-color: #24282B;  }
+.bg-featured { background-color: #EEE4C5;  }
+.bg-dark     { background-color: #231F1F;  }
 
 .light-text { color: white; } 
-.featured-text  { color: #FFBE00; }
+.featured-text  { color: #C7A930; }
 
 
-.font-weight-light      { font-weight: 200;}
+.font-weight-light      { font-weight: 300;}
 .font-weight-normal     { font-weight: normal;}
 .font-weight-extra-bold { font-weight: 800;}
+
+.uppercase {
+    text-transform: uppercase;
+}
 
 
 .left   { text-align: left; }
@@ -183,10 +210,44 @@ a:hover {
 
 
 
-
 /* Header & Footer Styles————————————————*/
 
+header {
+    padding: 2%;
+}
 
+header a {
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    color: inherit;
+    padding: 0.5rem;
+}
+
+header a:hover {
+    color: var(--light);
+}
+
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 0.3rem 0;
+    margin: 0.1rem;
+    font-size: 1rem;
+}
+
+.social-links a {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1.2rem 0rem;
+    margin: 0.2rem;
+}
+
+footer {
+    padding: 2%;
+}
 
 
 /* Images & Background Images—————————-—— */
@@ -198,5 +259,22 @@ a:hover {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    min-height: 10vh;
 }
+
+/* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
+.landscape { padding-bottom: 65%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+
+
+/* Background Position ----*/
+
+.bg-pos-t       { background-position: top; }
+.bg-pos-b       { background-position: bottom; }
+.bg-pos-l       { background-position: left; }
+.bg-pos-r       { background-position: right; }
+.bg-pos-unique  { background-position: 50% 68%; } 
+
+.image-border-bottom {
+    border-bottom: 1.5rem solid white;
+  }
