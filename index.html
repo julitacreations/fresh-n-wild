@@ -25,7 +25,185 @@
 <!------ This is the body, where all of the contents of our page go  ------->
 <body>
 
-<h1>Test</h1>
+    <header class="grid padded-1 bg-dark light-text">
+        <div class="col-5_sm-11-middle sm-padded-b-0">
+            <a href="/index.html">
+                <h2 class="logo"> Fresh 'n Wild Logo </h2>
+            </a>
+        </div>
+        <nav class="col-7_sm-12-middle text-right mob-hide padded-05 sm-text-center">
+            <a href="/index.html"> Restaurant </a>
+            <a href="/menu.html"> Coffee Shops </a>
+            <a href="/about.html"> Catering </a>
+            <a href="/contact.html"> Calendar </a>
+            <a href="/contact.html"> Contact </a>
+        </nav>
+        <!-- <div class="col-1"> 
+            <a class="hamburger-button mob-show right"> &#9776; </a>
+        </div> -->
+    </header>
+
+    <!---Mobile menu hamburger button -->
+    <!-- <div class="mobile-menu bg-light padded">  
+        <nav>
+            <a href="/index.html"> Home </a>
+            <a href="/menu.html"> Menu </a>
+            <a href="/about.html"> About </a>
+            <a href="/contact.html"> Contact </a>
+        </nav>
+    </div> -->
+
+    
+     <section class="{{page.banner-image}} {{page.banner-height}}  bg-image md-tall-60">
+        <div class="uppercase text-center weight-bold padded-t-8">
+            <h1> Fresh 'n Wild </h1>
+        </div>
+    </section>
+
+
+    <!---Welcome and contact intro ------>
+
+    <section class="center">
+        <div>
+            <h2>Restaurant <em>at Utopia</em> </h2>
+            <p>Fresh 'n Wild at Utopia is located in the quiet suburb of Klein Windhoek.
+                The restaurant is situated in a beautiful garden surrounded by old trees, a dam and water features.
+            </p>
+            <p>No 64 Nelson Mandela Avenue, Windhoek, Namibia</p>
+        </div>
+        <div>
+            <i class="fas fa-cloud icon"></i>
+            <p>083 330 5162</p>
+        </div>
+        <div class="grid-spaceAround">
+            <div class="col-3">
+                <i class="fas fa-cloud icon"></i>
+                <p>We strive to use local and seasonal ingredients of the highest quality.</p>
+            </div>
+            <div class="col-3">
+                <i class="fas fa-cloud icon"></i>
+                <p>Simple yet elegant dishes, with daily changing lunch and dinner specials.
+                </p>
+            </div>
+            <div class="col-3">
+                <i class="fas fa-cloud icon"></i>
+                <p>We cater to private and corporate functions, on location or out of the house.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---Menu Section -linking to Menu page ----------->
+   
+    <section class="grid-middle center padded-2 sm-grid">
+        <div class="col-12">
+            <h2>Our Utopia Menu</h2>
+        </div>
+        <!-- Card 1 -->
+        <div class="col-4_sm-9 padded-05 mob-padded-0">
+            <div data-aos="fade-up">
+                <div class="bg-image portrait card"></div>
+                <p>Day Menu</p>
+                <a href="/contact.html" class="button">View Menu</a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-4_sm-9 padded-05 mob-padded-0">
+            <div data-aos="fade-up">
+                <p>Evening Menu</p>
+                <a href="/menu.html" class="button">View Menu</a>
+                <div class="bg-image portrait card"></div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-4_sm-9 padded-05 mob-padded-0">
+            <div data-aos="fade-up">
+                <div class="bg-image portrait card"></div>
+                <p>Pizza Menu</p>
+                <a href="#" class="button">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!---Menu Section -linking to Menu page ----------->
+    <section class="center">
+        <h2>Coffee Shops <em>at Woermann Fresh</em></h2>
+        <p>Visit our Grab ‘n Go, Deli and Bistro inside Woermann Fresh Supermarkets.
+        </p>
+        <p>Enjoy a coffee, breakfast or lunch at our harvest table, build your pizza or crispy Brötchen, Mediterranean salads or hearty cooked meals at our Deli or at the grab and go if you are in a hurry.
+        </p>
+        <a href="#" class="button">View Coffee Shops</a>
+    </section>
+    
+    <!---Catering Section -linking to Catering page ----------->
+    <section class="center"></section>
+        <h2>Catering <em>for any Occasion</em></h2>
+        <p>Fresh 'n Wild at Utopia is an ideal venue for special occassions, from weddings, private parties to corporate events. Our premises at Utopia offers ample parking and has boardroom facilities.
+        </p>
+        <div class="grid">
+            <div class="col-3">
+                <div class="bg-image landscape"></div>
+            </div>
+            <div class="col-1">
+                <div class="bg-image square"></div>
+            </div>
+            <div class="col-2">
+                <div class="bg-image portrait"></div>
+            </div>
+            <div class="col-1">
+                <div class="bg-image portrait"></div>
+            </div>
+            <div class="col-2">
+                <div class="bg-image square"></div>
+            </div>
+        </div>
+        <p>Together with you, we will create a menu that suits your taste, budget, and style.
+        </p>
+        <a href="#" class="button">Request a Quote</a>
+    </section>
+
+
+     <!---Site Footer ----------->
+    <footer class="grid-spaceAround padded padded-b-0">
+
+        <div class="logo col-6-middle hide-sm"> 
+            <h2> Fresh 'n Wild Logo </h2>
+        </div>
+
+         <!-- Social links -->
+         <div class="col-2_xs-12 xs-text-center xs-padded-05 xs-padded-b-0 social-links">
+            <h4> Socials </h4>
+            <nav> 
+                <a href="#"> 
+                    <i class="fab fa-facebook"></i>         
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+            </nav>
+        </div>
+    
+        <nav class="col-2_xs-6 right xs-text-center xs-padded-1"> 
+            <h4> The Café Project </h4>
+            <a href="/menu.html"> Restaurant </a>
+            <a href="/menu.html"> Coffee Shops </a>
+            <a href="/contact.html"> Catering </a>
+        </nav>
+        <nav class="col-2_ right xs-6 xs-text-center xs-padded-1"> 
+            <h4> Contact </h4>
+            <a href="#"> Calendar </a>
+            <a href="#"> Contact </a>
+        </nav>
+    
+       
+    
+        <!--Copyright -->
+        <div class="col-12 center xs-padded-05 italic padded-2">
+            <p class="subtle"> © 2024 Fresh 'n Wild | <a>Website by Julita Creations Studio</a> </p>
+        </div> 
+    
+    </footer>
 
 </body>
 </html>

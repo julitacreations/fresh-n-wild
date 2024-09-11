@@ -30,14 +30,15 @@ img { max-width: 100%; }
     border: 2px solid rgb(200,200,200);
 } */
 
-/* html, 
+ html, 
 body {
     border: none;
-} */
+} 
 
-/* h1,h2,h3,h4,h5,h6,p, a {
+ h1,h2,h3,h4,h5,h6,p, a {
     border: 2px solid rgb(179, 84, 84);
-} */
+} 
+
 
 
 
@@ -197,4 +198,5 @@ a:hover {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+    min-height: 10vh;
 }
