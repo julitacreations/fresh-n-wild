@@ -22,30 +22,30 @@ Accent Font: Corinthia
 [class*="col-"], [class*="col_"], [class~="col"]  {padding:0;}
 [class*="grid-"], [class*="grid_"], [class~="grid"] {margin:0;} */
 
-/*Or :
+
 [class*=grid] {
     margin:0;
-}*/
+}
 
 
 img { max-width: 100%; }
 
 
-/*  Temporary Styles */
+/*  Temporary Styles------ */
 
-/* * {
+* {
     padding: 0.5rem;
     border: 2px solid rgb(200,200,200);
-} */
+} 
 
- /* html,  
+html,  
 body {
     border: none;
 } 
 
  h1,h2,h3,h4,h5,h6,p, a {
     border: 2px solid rgb(179, 84, 84);
-} */
+} 
 
 
 
@@ -126,6 +126,7 @@ body {
 body {
     font-family: 'Rubik', sans-serif;
     color:#231F1F;
+    background-color: #FCFAF5;
 }
 
 
@@ -134,10 +135,15 @@ h2, h3, h4, h5, h6 {
 	margin-bottom: 1.2rem;
 }
 
+h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
 p {
 	line-height: 1.4; 
 	margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
 }
 
 h1:last-child, 
@@ -181,14 +187,17 @@ a:hover {
 /* General typography & universal styles——————-———*/
 
 .bg-featured { background-color: #EEE4C5;  }
+.bg-light    { background-color: white;}
 .bg-dark     { background-color: #231F1F;  }
 
 .light-text { color: white; } 
 .featured-text  { color: #C7A930; }
 
+.featured-font { font-family: 'Corinthia', cursive; }
 
 .font-weight-light      { font-weight: 300;}
 .font-weight-normal     { font-weight: normal;}
+.font-weight-bold       { font-weight: 500;}
 .font-weight-extra-bold { font-weight: 800;}
 
 .uppercase {
@@ -200,12 +209,9 @@ a:hover {
 .center { text-align: center; }
 .right  { text-align: right; }
 
-.small-text { font-size: 1.5rem;}
-.medium-text {
-    font-size: 2rem;
-    line-height: 1.1;
-}
-.big-text   { font-size: 5rem; }
+.small-text  { font-size: 0.8rem;}
+.medium-text { font-size: 1.2rem;}
+.big-text    { font-size: 2.4rem; }
 
 
 
