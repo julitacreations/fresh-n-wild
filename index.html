@@ -36,16 +36,31 @@
             </a>
         </div>
         <nav class="col-7_sm-12-middle right uppercase mob-hide padded-05 sm-text-center">
-            <a href="/index.html"> Restaurant </a>
-            <a href="/menu.html"> Coffee Shops </a>
-            <a href="/about.html"> Catering </a>
-            <a href="/contact.html"> Calendar </a>
+            <a href="/restaurant-at-utopia.html"> Restaurant </a>
+            <a href="/coffeeshops-woermann.html"> Coffee Shops </a>
+            <a href="/catering.html"> Catering </a>
+            <a href="/calendar.html"> Calendar </a>
             <a href="/contact.html"> Contact </a>
         </nav>
         <!-- <div class="col-1"> 
             <a class="hamburger-button mob-show right"> &#9776; </a>
         </div> -->
     </header>
+
+    <!-- optional second navigation bar -->
+    <!-- <nav class="col-3-middle right uppercase">
+        <a href="story.html"> Our Story </a>
+        <a href="selection.html"> Selection </a>
+      </nav>
+      <div class="col-6-middle">
+        <a href="/index.html" class="logo uppercase center">
+          <h1>Cake Layered Co</h1>
+        </a>
+      </div>
+      <nav class="col-3-middle uppercase left">
+        <a href="process.html"> Our Process </a>
+        <a href="order.html"> Order </a>
+      </nav> -->
 
     <!---Mobile menu hamburger button -->
     <!-- <div class="mobile-menu bg-light padded">  
@@ -58,9 +73,9 @@
     </div> -->
 
     
-     <section class="{{page.banner-image}} {{page.banner-height}} grid bg-image">
-        <div class="col-12-middle uppercase center padded">
-            <h1> Fresh 'n Wild </h1>
+     <section class="{{page.banner-image}} {{page.banner-height}} grid bg-image bg-image-hero bg-overlay bg-overlay-gradient tall-90">
+        <div class="col-12-middle uppercase center padded light-text">
+            <h1>Fresh 'n <span>Wild</span></h1>
         </div>
     </section>
 
@@ -69,27 +84,27 @@
 
     <section class="padded center">
         <div>
-            <h2 class="uppercase">Restaurant <br> at Utopia </h2>
+            <h2 class="uppercase">Restaurant <br> <span>at Utopia</span></h2>
             <p>Fresh 'n Wild at Utopia is located in the quiet suburb of Klein Windhoek. <br> The restaurant is situated in a beautiful garden surrounded by old trees, a dam and water features.
             </p>
             <p class="font-weight-bold">No 64 Nelson Mandela Avenue, Windhoek, Namibia</p>
         </div>
         <div class="padded-sm">
-            <i class="fas fa-cloud icon"></i>
+            <img src="/images/phone-icon-gold.svg" class="icon" alt="contact telephone" />
             <p class="font-weight-bold medium-text">083 330 5162</p>
         </div>
         <div class="grid-spaceAround">
             <div class="col-3 padded-1">
-                <i class="fas fa-cloud icon"></i>
+                <img src="/images/tomato-icon.svg" class="icon-size" alt="fresh tomato icon" />
                 <p>We strive to use local and seasonal ingredients of the highest quality.</p>
             </div>
             <div class="col-3 padded-1">
-                <i class="fas fa-cloud icon"></i>
+                <img src="/images/knifefork.svg" class="icon-size" alt="cutlery icon" />
                 <p>Simple yet elegant dishes, with daily changing lunch and dinner specials.
                 </p>
             </div>
             <div class="col-3 padded-1">
-                <i class="fas fa-cloud icon"></i>
+                <img src="/images/catering-icon.svg" class="icon-size" alt="closh icon" />
                 <p>We cater to private and corporate functions, on location or out of the house.</p>
             </div>
         </div>
@@ -97,15 +112,15 @@
 
     <!---Menu Section -linking to Menu page ----------->
    
-    <section class="grid-middle center padded sm-grid bg-dark light-text">
+    <section class="grid-spaceAround center padded sm-grid bg-dark light-text">
         <div class="col-12">
             <h2 class="uppercase">Our Utopia Menu</h2>
         </div>
         <!-- Card 1 -->
         <div class="col-4_sm-9 padded-1 mob-padded-0">
             <div data-aos="fade-up">
-                <div class="bg-image portrait card"></div>
-                <p class="featured-font big-text">Day Menu</p>
+                <div class="bg-image bg-image-breakfast portrait card"></div>
+                <p class="featured-font big-text margin-b-0">Day Menu</p>
                 <a href="/contact.html" class="button">View Menu</a>
             </div>
         </div>
@@ -113,17 +128,17 @@
         <!-- Card 2 -->
         <div class="col-4_sm-9 padded-1 mob-padded-0">
             <div data-aos="fade-up">
-                <p class="featured-font big-text">Evening Menu</p>
-                <a href="/menu.html" class="button">View Menu</a>
-                <div class="bg-image portrait card"></div>
+                <p class="featured-font big-text margin-b-0">Evening Menu</p>
+                <a href="/menu.html" class="button margin-b-1">View Menu</a>
+                <div class="bg-image bg-image-mezze-flat portrait card"></div>
             </div>
         </div>
 
         <!-- Card 3 -->
         <div class="col-4_sm-9 padded-1 mob-padded-0">
             <div data-aos="fade-up">
-                <div class="bg-image portrait card"></div>
-                <p class="featured-font big-text">Pizza Menu</p>
+                <div class="bg-image bg-image-wrap portrait card"></div>
+                <p class="featured-font big-text margin-b-0">Pizza Menu</p>
                 <a href="#" class="button">View Menu</a>
             </div>
         </div>
@@ -141,40 +156,44 @@
     </div>  -->
     <!---Menu Section -linking to Menu page ----------->
     
-    <section class="grid-spaceAround padded center bg-featured">
-        <h2 class="uppercase col-10">Coffee Shops <br> <em>at Woermann Fresh</em></h2>
-        <p class="col-10">Visit our Grab ‘n Go, Deli and Bistro inside Woermann Fresh Supermarkets.
-        </p>
-        <p class="col-10">Enjoy a coffee, breakfast or lunch at our harvest table, build your pizza or crispy Brötchen, Mediterranean salads or hearty cooked meals at our Deli or at the grab and go if you are in a hurry.
-        </p>
-        <a href="#" class="button">View Coffee Shops</a>
+    <section class="grid-spaceAround padded-tb center bg-featured">
+        <h2 class="uppercase col-12 padded-b-0">Coffee Shops <br> <span>at Woermann Fresh</span></h2>
+        <div class="col-3"></div>
+        <div class="col-6">
+            <p>Visit our Grab ‘n Go, Deli and Bistro inside Woermann Fresh Supermarkets.
+            </p>
+            <p>Enjoy a coffee, breakfast or lunch at our harvest table, build your pizza or crispy Brötchen, Mediterranean salads or hearty cooked meals at our Deli or at the grab and go if you are in a hurry.
+            </p>
+        </div>
+        <div class="col-3"></div>
+        <a href="#" class="button margin-t-1">View Coffee Shops</a>
     </section>
     
     <!---Catering Section -linking to Catering page ----------->
     <section class="grid-spaceAround center padded-t padded-b">
-        <h2 class="col-12 uppercase">Catering  <br> <em>for any Occasion</em></h2>
-        <p class="col-10">Fresh 'n Wild at Utopia is an ideal venue for special occassions, from weddings, private parties to corporate events. Our premises at Utopia offers ample parking and has boardroom facilities.
+        <h2 class="col-12 uppercase">Catering  <br> <span>for any Occasion</span></h2>
+        <p class="col-8">Fresh 'n Wild at Utopia is an ideal venue for special occassions, from weddings, private parties to corporate events. Our premises at Utopia offers ample parking and has boardroom facilities.
         </p>
         <div class="col-12 grid">
             <div class="col-4-middle">
-                <div class="bg-image landscape"></div>
+                <div class="bg-image bg-image-mezze landscape"></div>
             </div>
             <div class="col-1-bottom">
-                <div class="bg-image square"></div>
+                <div class="bg-image bg-image-cappuccino square"></div>
             </div>
-            <div class="col-3-top">
-                <div class="bg-image portrait"></div>
+            <div class="col-3-top image-border-complete">
+                <div class="bg-image bg-image-employee portrait"></div>
             </div>
-            <div class="col-2 image-border-bottom">
-                <div class="bg-image portrait"></div>
+            <div class="col-2 image-border-bottom image-border-left">
+                <div class="bg-image bg-image-bowl portrait"></div>
             </div>
-            <div class="col-2">
-                <div class="bg-image square"></div>
+            <div class="col-2 image-border-left">
+                <div class="bg-image bg-image-bar square"></div>
             </div>
         </div>
-        <p class="col-11">Together with you, we will create a menu that suits your taste, budget, and style.
+        <p class="col-12 padded-t-2">Together with you, we will create a menu that suits your taste, budget, and style.
         </p>
-        <a href="#" class="button">Request a Quote</a>
+        <a href="#" class="button margin-t-1">Request a Quote</a>
     </section>
 
 
@@ -186,14 +205,14 @@
         </div>
 
          <!-- Social links -->
-         <div class="col-2_xs-12 xs-text-center xs-padded-05 xs-padded-b-0 social-links">
+         <div class="col-2_xs-12 xs-text-center xs-padded-05 xs-padded-b-0">
             <h4> Socials </h4>
             <nav> 
                 <a href="#"> 
-                    <i class="fab fa-facebook"></i>         
+                    <img src="/images/facebook-icon-gold.svg" class="icon" alt="cutlery icon" />       
                 </a>
                 <a href="#">
-                    <i class="fab fa-instagram-square"></i>
+                    <img src="/images/facebook-icon-gold.svg" class="icon" alt="cutlery icon" />   
                 </a>
             </nav>
         </div>
