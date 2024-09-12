@@ -33,7 +33,7 @@ img { max-width: 100%; }
 
 /*  Temporary Styles------ */
 
-* {
+/* * {
     padding: 0.5rem;
     border: 2px solid rgb(200,200,200);
 } 
@@ -45,7 +45,7 @@ body {
 
  h1,h2,h3,h4,h5,h6,p, a {
     border: 2px solid rgb(179, 84, 84);
-} 
+}  */
 
 
 
@@ -283,4 +283,54 @@ footer {
 
 .image-border-bottom {
     border-bottom: 1.5rem solid white;
-  }
+}
+
+
+
+
+
+
+
+
+/* Ticket Banner slider Styles (possible option to use)-------------------*/
+  
+.text-block {
+    padding: 0.8%;
+}
+
+:root {
+--bannerBlockLength: 280px;
+--bannerBlockTime: 2s;
+}
+
+.container-ticker-banner{
+    overflow-X: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #C7A930;
+    color: #231F1F;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.8rem;
+  
+}
+.tickerBanner{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+  
+.tickerBanner div{
+    display: inline-block;
+    padding: 1vw;
+    flex-shrink: 0;
+    position: relative;
+    animation: ticker 2s infinite linear;
+    animation-duration: var(--bannerBlockTime), 2s;
+}
+  
+@keyframes ticker {
+    from {left:0}
+    to   {left:var(--bannerBlockLength)}
+}
+  

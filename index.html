@@ -79,16 +79,16 @@
             <p class="font-weight-bold medium-text">083 330 5162</p>
         </div>
         <div class="grid-spaceAround">
-            <div class="col-3">
+            <div class="col-3 padded-1">
                 <i class="fas fa-cloud icon"></i>
                 <p>We strive to use local and seasonal ingredients of the highest quality.</p>
             </div>
-            <div class="col-3">
+            <div class="col-3 padded-1">
                 <i class="fas fa-cloud icon"></i>
                 <p>Simple yet elegant dishes, with daily changing lunch and dinner specials.
                 </p>
             </div>
-            <div class="col-3">
+            <div class="col-3 padded-1">
                 <i class="fas fa-cloud icon"></i>
                 <p>We cater to private and corporate functions, on location or out of the house.</p>
             </div>
@@ -129,7 +129,18 @@
         </div>
     </section>
 
+    <!-- -Moving Banner ---------
+    <div class="container-ticker-banner">
+        <div class="tickerBanner">
+    
+          {% for message in page.banner_messages %}
+          <div class="text-block">{{message}}</div>
+          {% endfor %}
+    
+        </div>
+    </div>  -->
     <!---Menu Section -linking to Menu page ----------->
+    
     <section class="grid-spaceAround padded center bg-featured">
         <h2 class="uppercase col-10">Coffee Shops <br> <em>at Woermann Fresh</em></h2>
         <p class="col-10">Visit our Grab ‘n Go, Deli and Bistro inside Woermann Fresh Supermarkets.
@@ -202,8 +213,8 @@
        
     
         <!--Copyright -->
-        <div class="col-12 center xs-padded-05 italic padded-2">
-            <p class="subtle"> © 2024 Fresh 'n Wild | <a>Website by Julita Creations Studio</a> </p>
+        <div class="col-12 center xs-padded-05 italic padded-t-1">
+            <p class="subtle"> © 2024 Fresh 'n Wild | Website by <a>Julita Creations Studio</a> </p>
         </div> 
     
     </footer>
