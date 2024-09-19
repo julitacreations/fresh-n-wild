@@ -407,6 +407,7 @@ a.credit-link {
 /* icons */
 
 .icon       { max-width: 6%; }
+.icon-2     { max-width: 20%; }
 .icon-size  { font-size: 1.7rem; }
 
 
@@ -418,7 +419,63 @@ a.credit-link {
 
 
 
+/*Accordion Block and Menu styles--------------------------------*/
+.accordion {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+}
 
+.accordion-item {
+    margin: -0.3rem 0;
+}
+
+.accordion-header {
+    cursor: pointer;
+    position: relative;
+    margin: 0.2rem 0;
+}
+
+.accordion-header::after {
+    content: '+';
+    position: absolute;
+    right: 8px;
+    color:#C7A930;
+}
+
+.accordion-header.active::after {
+    content: '-';
+}
+
+.accordion-content {
+    display: none;
+    padding: 8px;
+ }
+
+
+.price { 
+    display: block;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+.menu p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.menu h3 {
+    margin: 1rem 0;
+}
+
+.border-line {
+    border: none;
+    border-bottom: 1px solid #C7A930;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 
 
