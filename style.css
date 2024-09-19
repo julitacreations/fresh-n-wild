@@ -109,6 +109,7 @@ body {
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
 
+.margin-t-05 { margin-top: 0.5rem;}
 .margin-b-05 { margin-bottom: 0.5rem;}
 
 /* Height Classes */
@@ -131,8 +132,9 @@ body {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 400;
+    line-height: 1;
 }
 
 
@@ -148,8 +150,8 @@ h2 {
 h2 span {
     font-family: 'Corinthia', cursive;
     color: #C7A930;
-    text-transform: capitalize;
     font-size: 3.6rem;
+    text-transform: none;
  }
 
 p {
@@ -214,8 +216,9 @@ a:hover {
 .font-weight-bold       { font-weight: 500;}
 .font-weight-extra-bold { font-weight: 800;}
 
-.uppercase {
-    text-transform: uppercase;
+.uppercase { text-transform: uppercase;
+}
+.no-text-transform { text-transform: none;
 }
 
 
@@ -249,6 +252,11 @@ header .logo {
     margin-left: 10%;
 }
 
+h1 span {
+    font-family: 'Corinthia', sans-serif;
+    text-transform: none;
+    font-size: 7.5rem;
+}
 
 footer a {
     color: inherit;
@@ -262,7 +270,7 @@ footer a {
 
 
 footer nav a .icon { 
-    max-width: 15%;
+    max-width: 12%;
     margin-right: 0.5rem;
     /* display: inline-block; */
  }
@@ -278,7 +286,7 @@ footer a {
 /* Style only the copyright section */
 .copyright-section .subtle {
     font-style: italic;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 300;
 }
 
@@ -311,7 +319,7 @@ a.credit-link {
 /* Gradient Overlay  */ 
 
 .bg-overlay-gradient::before { 
-    background: linear-gradient(-30deg, rgba(25, 21, 21, 0.3), rgba(0,0,0,0));
+    background: linear-gradient(-30deg, rgba(25, 21, 21, 0.5), rgba(0,0,0,0));
 } 
 
 
@@ -341,16 +349,7 @@ a.credit-link {
 .bg-pos-unique  { background-position: 50% 68%; } 
 
 
-/* Catering section styles */
-.image-border-bottom {
-    border-bottom: 1.9rem solid #FCFAF5;
-}
-.image-border-complete {
-    border: 0.5rem solid #FCFAF5;
-}
-.image-border-left {
-    border-left: 0.7rem solid #FCFAF5;
-}
+/* Catering section styles----- */
 
 .catering-section .catering-images {
     position: relative; /* Parent element needs relative positioning for absolute children */
@@ -407,7 +406,7 @@ a.credit-link {
 
 /* icons */
 
-.icon       { max-width: 7%; }
+.icon       { max-width: 6%; }
 .icon-size  { font-size: 1.7rem; }
 
 
@@ -424,34 +423,34 @@ a.credit-link {
 
 
 /* Ticket Banner slider Styles (possible option to use)-------------------*/
-  
+/*   
 .text-block {
     padding: 0.8%;
-}
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+} */
 
-:root {
+/* :root {
 --bannerBlockLength: 280px;
 --bannerBlockTime: 2s;
-}
+} */
 
-.container-ticker-banner{
+/* .container-ticker-banner{
     overflow-X: hidden;
     display: flex;
     flex-direction: row-reverse;
-    background-color: #C7A930;
-    color: #231F1F;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    /* color: #231F1F;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 0.8rem;
-  
-}
-.tickerBanner{
+}  */
+/* .tickerBanner{
     display: flex;
     flex-direction: row-reverse;
     text-align: center;
-}
+} */
   
-.tickerBanner div{
+/* .tickerBanner div{
     display: inline-block;
     padding: 1vw;
     flex-shrink: 0;
@@ -459,9 +458,11 @@ a.credit-link {
     animation: ticker 2s infinite linear;
     animation-duration: var(--bannerBlockTime), 2s;
 }
-  
-@keyframes ticker {
+   */
+/* @keyframes ticker {
     from {left:0}
     to   {left:var(--bannerBlockLength)}
 }
+   */
+
   
