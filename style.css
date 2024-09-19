@@ -232,10 +232,6 @@ a:hover {
 
 /* Header & Footer Styles————————————————*/
 
-header {
-    padding: 2%;
-}
-
 header a {
     text-decoration: none;
     display: inline-block;
@@ -245,7 +241,12 @@ header a {
 }
 
 header a:hover {
-    color: var(--light);
+    color: #C7A930;
+}
+
+header .logo {
+    max-width: 60%;
+    margin-left: 10%;
 }
 
 
@@ -260,14 +261,33 @@ footer a {
 }
 
 
-footer {
-    padding: 2%;
+footer nav a .icon { 
+    max-width: 15%;
+    margin-right: 0.5rem;
+    /* display: inline-block; */
+ }
+
+footer .logo {
+    max-width: 50%;
+}
+footer a {
+    font-size: 0.8rem;    
 }
 
-footer nav a .icon { 
-    max-width: 22%;
-    display: inline-block;
- }
+
+/* Style only the copyright section */
+.copyright-section .subtle {
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+/* Ensure the copyright and the link are in the same line */
+.copyright-section .subtle, 
+a.credit-link {
+    display: inline;
+}
+
 
 
 /* Header banner overlay -------*/
@@ -320,6 +340,8 @@ footer nav a .icon {
 .bg-pos-r       { background-position: right; }
 .bg-pos-unique  { background-position: 50% 68%; } 
 
+
+/* Catering section styles */
 .image-border-bottom {
     border-bottom: 1.9rem solid #FCFAF5;
 }
@@ -330,6 +352,35 @@ footer nav a .icon {
     border-left: 0.7rem solid #FCFAF5;
 }
 
+.catering-section .catering-images {
+    position: relative; /* Parent element needs relative positioning for absolute children */
+}
+
+/* Positioning for the individual images */
+.catering-section .position-1 {
+    position: absolute;
+    top: 58%;
+    left: 30%;
+    width: 11%;
+    height: 120px;
+    z-index: 1; /* Adjust z-index for overlapping */
+}
+
+.catering-section .position-2 {
+    position: absolute;
+    top: 33%;
+    left: 68%;
+    width: 40%;
+    z-index: 2;
+}
+
+.catering-section .position-3 {
+    position: absolute;
+    top: 6%;
+    left: 84%;
+    width: 55%;
+    z-index: 3;
+}
 
 .bg-image-hero { background-image: url('images/fresh-wild-hero.jpg'); }
 .bg-image-bar { background-image: url('images/fresh-wild-bar.jpg'); }
