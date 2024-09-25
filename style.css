@@ -454,6 +454,16 @@ a.credit-link {
     margin: auto;
 }
 
+/* default menu introduction on home page - h3, image order */
+.flex-flip-sm {
+    display: flex;
+    flex-direction: column;
+}
+.flex-flip-xs {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 /*Accordion Block and Menu styles--------------------------------*/
@@ -578,29 +588,53 @@ a.credit-link {
 @media(max-width:48em) {
 
     html { font-size: 14px;}
-    p {font-size: 1rem; }
 
     body { border: 2px solid blue;}
 
-	 .show-sm { display: block; }
-	 .hide-sm { display: none;  }
+    .show-sm { display: block; }
+    .hide-sm { display: none;  }
 
-     .sm-text-center    { text-align: center;}
-     .sm-text-left      { text-align: left;}
-     .sm-text-right     { text-align: right;}
-     
-     .sm-padded         { padding: 5%;}
-     .sm-padded-1       { padding: 1rem;}
-     .sm-padded-05      { padding: 0.5rem}
-     
-     .sm-padded-t-0     { padding-top:0; }
-     .sm-padded-b-0     { padding-bottom:0;}
-     .sm-margin-l-0     { padding-left:0;}
-     .sm-margin-r-0     { padding-right:0;}
+    .sm-text-center    { text-align: center;}
+    .sm-text-left      { text-align: left;}
+    .sm-text-right     { text-align: right;}
+    
+    .sm-padded         { padding: 5%;}
+    .sm-padded-2       { padding: 2rem;}
+    .sm-padded-1       { padding: 1rem;}
+    .sm-padded-05      { padding: 0.5rem;}
+    
+    .sm-padded-t-0     { padding-top:0; }
+    .sm-padded-b-0     { padding-bottom:0;}
+    .sm-margin-l-0     { padding-left:0;}
+    .sm-margin-r-0     { padding-right:0;}
 
-     .logo h2  { font-size: 2rem; }
-     header h3 { font-size: 11vw; }
+
+    h1      { font-size: 4.5rem; }
+    h1 span { font-size: 5.8rem; }
+    h2      { font-size: 1.5rem; }
+    h2 span { font-size: 2.8rem; }
+
+    .flex-flip-sm { flex-direction: column-reverse; }
+
+    .sm-catering-section .sm-position-1 {
+        top: 30%;
+        left: 35%;
+        height: 90px;
+    }
+    .sm-catering-section .sm-position-2 {
+    top: 15%;
+    left: 71%;
+    width: 25%;
+    }
      
+    .sm-catering-section .sm-position-3 {
+        top: 5%;
+        left: 82%;
+    }
+
+    footer .sm-logo {
+        max-width: 80%;
+    }
 
 
 }
@@ -610,19 +644,41 @@ a.credit-link {
 
 @media(max-width:36em) {
 
-    
 
     body { border: 2px solid lightblue;}
+
+    p {font-size: 0.9rem; }
 
 	.show-xs { display: block; }
 	.hide-xs { display: none;  }
 
-    h1 {
-        font-size: 1.4rem;
-        line-height: 1.1;
+    .xs-padded-0      { padding: 0;}
+
+
+    h1      { font-size: 3rem; }
+    h1 span { font-size: 4.5rem; }
+    h2      { font-size: 1.3rem; }
+    h2 span { font-size: 2.2rem; }
+
+    .xs-header-h2 {font-size: 1.1rem;}
+
+
+
+    .xs-catering-section .xs-position-1 {
+        top: 32%;
+        left: 35%;
+        height: 50px;
     }
 
-    h2 { font-size: 2rem;}
+    .flex-flip-xs { flex-direction: column-reverse; }
+
+    footer .xs-logo {
+        max-width: 50%;
+    }
+    footer nav a .xs-icon { 
+        max-width: 10%;
+        margin-right: 0.7rem;
+    }
 }
 
 
