@@ -157,7 +157,7 @@ h2 span {
 p {
 	line-height: 1.4; 
 	margin-bottom: 1rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 h1:last-child, 
@@ -375,7 +375,7 @@ a.credit-link {
 
 .catering-section .position-3 {
     position: absolute;
-    top: 6%;
+    top: 4%;
     left: 82%;
     width: 55%;
     z-index: 2;
@@ -406,7 +406,7 @@ a.credit-link {
 
 /* icons */
 
-.icon       { max-width: 6%; }
+.icon       { max-width: 5%; }
 .icon-2     { max-width: 20%; }
 .icon-size  { font-size: 1.7rem; }
 
