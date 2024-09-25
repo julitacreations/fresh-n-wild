@@ -358,27 +358,27 @@ a.credit-link {
 /* Positioning for the individual images */
 .catering-section .position-1 {
     position: absolute;
-    top: 58%;
-    left: 30%;
-    width: 11%;
-    height: 120px;
+    top: 55%;
+    left: 29%;
+    width: 15%;
+    height: 195px;
     z-index: 1; /* Adjust z-index for overlapping */
 }
 
 .catering-section .position-2 {
     position: absolute;
-    top: 33%;
-    left: 68%;
-    width: 40%;
-    z-index: 2;
+    top: 30%;
+    left: 66%;
+    width: 30%;
+    z-index: 3;
 }
 
 .catering-section .position-3 {
     position: absolute;
     top: 6%;
-    left: 84%;
+    left: 82%;
     width: 55%;
-    z-index: 3;
+    z-index: 2;
 }
 
 .bg-image-hero { background-image: url('images/fresh-wild-hero.jpg'); }
