@@ -297,6 +297,43 @@ a.credit-link {
 }
 
 
+/* Mobile menu button styles */
+
+.hamburger-button {
+    cursor: pointer;
+    padding: 0 0.5rem;
+    display: inline-block;
+    font-size: 2.2rem;
+    line-height: 1.3;
+    position: relative;
+    right: 0.5rem;
+    z-index: 5;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: inherit;
+    padding: 7%;
+    display: block;
+    font-size: 2.4rem;
+}
+
+.hamburger-button.active {
+    color: var(--dark);
+  }
+
+
+
 
 /* Header banner overlay -------*/
 
@@ -514,6 +551,11 @@ a.credit-link {
     .md-catering-section .md-position-1 {
         top: 52%;
         height: 166px;
+    }
+
+    header a { 
+        font-size: 0.9rem;
+        padding: 0.4rem; 
     }
 
     header .md-logo {
