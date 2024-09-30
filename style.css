@@ -398,7 +398,7 @@ a.credit-link {
     top: 55%;
     left: 29%;
     width: 15%;
-    height: 195px;
+    height: 182px;
     z-index: 1; /* Adjust z-index for overlapping */
 }
 
@@ -560,7 +560,7 @@ a.credit-link {
 
     .md-catering-section .md-position-1 {
         top: 52%;
-        height: 166px;
+        height: 165px;
     }
 
     header a { 
