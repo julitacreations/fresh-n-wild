@@ -325,7 +325,7 @@ a.credit-link {
     padding: 0 0.5rem;
     display: inline-block;
     font-size: 2.6rem;
-    line-height: 2.4;
+    line-height: 2.6;
     position: relative;
     right: 0.5rem;
     z-index: 5;
@@ -632,7 +632,7 @@ a.credit-link {
 
     header .logo {
         max-width: 43%;
-        margin-left: 5%;
+        margin-left: 2.5%;
     }
 
 
