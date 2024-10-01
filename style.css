@@ -233,7 +233,7 @@ a:hover {
 
 
 
-/* Header & Footer Styles————————————————*/
+/* Header & Footer Styles——————————------------——————*/
 
 header a {
     text-decoration: none;
@@ -258,29 +258,50 @@ h1 span {
     font-size: 7.5rem;
 }
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 footer a {
+    border-bottom: none;
+}
+
+footer nav a {
     color: inherit;
     text-decoration: none;
     display: block;
     padding: 0.3rem 0;
     margin: 0.1rem;
-    font-size: 1rem;
-    border-bottom: none;
+    font-size: 0.8rem; 
+}
+
+/* Social links styling */
+.social-links {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.social-links img {
+    max-width: 45%;
+    margin-left: 0;
+}
+
+.social-links a {
+    margin-right: -1rem;
 }
 
 
-footer nav a .icon { 
-    max-width: 12%;
-    margin-right: 0.5rem;
-    /* display: inline-block; */
- }
 
-footer .logo {
-    max-width: 50%;
+footer .footer-logo {
+    max-width: 40%;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-footer a {
-    font-size: 0.8rem;    
-}
+
 
 
 /* Style only the copyright section */
@@ -443,9 +464,9 @@ a.credit-link {
 
 /* icons */
 
-.icon       { max-width: 5%; }
+.icon       { max-width: 6%; }
 .icon-2     { max-width: 20%; }
-.icon-size  { font-size: 1.7rem; }
+.icon-size  { max-width: 100%; }
 
 
 
@@ -556,7 +577,7 @@ a.credit-link {
     h2      { font-size: 1.6rem; }
     h2 span { font-size: 3.1rem; }
 
-    .md-big-text {font-size: 2.3rem;}
+    .big-text {font-size: 2.3rem;}
 
     .md-catering-section .md-position-1 {
         top: 52%;
@@ -574,10 +595,7 @@ a.credit-link {
     footer .md-logo {
         max-width: 60%;
     }
-    footer nav a .md-icon { 
-        max-width: 18%;
-        margin-right: 1rem;
-    }
+  
 
 }
 
@@ -614,6 +632,8 @@ a.credit-link {
     h2      { font-size: 1.5rem; }
     h2 span { font-size: 2.8rem; }
 
+    .big-text {font-size: 2.1rem;}
+
     .flex-flip-sm { flex-direction: column-reverse; }
 
     .sm-catering-section .sm-position-1 {
@@ -632,10 +652,6 @@ a.credit-link {
         left: 82%;
     }
 
-    footer .sm-logo {
-        max-width: 80%;
-    }
-
 
 }
 
@@ -652,7 +668,16 @@ a.credit-link {
 	.show-xs { display: block; }
 	.hide-xs { display: none;  }
 
-    .xs-padded-0      { padding: 0;}
+    .xs-padded-0       { padding: 0;}
+    .xs-padded-lg      { padding: 10%;}
+    .xs-padded         { padding: 5%;}
+    .xs-padded-2       { padding: 2rem;}
+    .xs-padded-1       { padding: 1rem;}
+    .xs-padded-05      { padding: 0.5rem;}
+
+    .xs-padded-t-1     { padding-top: 1rem;}
+
+    .xs-padded-tb-lg   { padding-top: 10%; padding-bottom: 10%;}
 
 
     h1      { font-size: 3rem; }
@@ -660,8 +685,16 @@ a.credit-link {
     h2      { font-size: 1.3rem; }
     h2 span { font-size: 2.2rem; }
 
+    .big-text {font-size: 2rem;}
+
     .xs-header-h2 {font-size: 1.1rem;}
 
+    .xs-text-center    { text-align: center;}
+    .xs-text-left      { text-align: left;}
+    .xs-text-right     { text-align: right;}
+
+    .xs-icon    { max-width: 10%;}
+    .icon-size  { max-width: 30%;}
 
 
     .xs-catering-section .xs-position-1 {
@@ -672,12 +705,42 @@ a.credit-link {
 
     .flex-flip-xs { flex-direction: column-reverse; }
 
-    footer .xs-logo {
-        max-width: 50%;
+
+  
+    footer .footer-nav {
+        order: 1;
+        width: 100%;
     }
-    footer nav a .xs-icon { 
-        max-width: 10%;
-        margin-right: 0.7rem;
+
+    footer .social-links {
+        order: 2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .footer-logo {
+        order: 3;
+        width: 30%;
+        justify-content: center;
+    }
+
+    footer .logo {
+        max-width: 60%;
+    }
+
+    .social-links img {
+        max-width: 30%;
+        margin-left: 0;
+    }
+    
+    .social-links a {
+        margin-right: -2.3rem;
+        margin-left: -1.7rem;
+    }
+
+    footer .copyright-section {
+        order: 4;
     }
 
     
