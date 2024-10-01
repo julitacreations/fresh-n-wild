@@ -579,9 +579,9 @@ a.credit-link {
 
     .big-text {font-size: 2.3rem;}
 
-    .md-catering-section .md-position-1 {
+    .catering-section .position-1 {
         top: 52%;
-        height: 165px;
+        height: 160px;
     }
 
     header a { 
@@ -636,18 +636,18 @@ a.credit-link {
 
     .flex-flip-sm { flex-direction: column-reverse; }
 
-    .sm-catering-section .sm-position-1 {
+    .catering-section .position-1 {
         top: 30%;
         left: 35%;
         height: 90px;
     }
-    .sm-catering-section .sm-position-2 {
+    .catering-section .position-2 {
     top: 15%;
     left: 71%;
     width: 25%;
     }
      
-    .sm-catering-section .sm-position-3 {
+    .catering-section .position-3 {
         top: 5%;
         left: 82%;
     }
@@ -697,7 +697,7 @@ a.credit-link {
     .icon-size  { max-width: 30%;}
 
 
-    .xs-catering-section .xs-position-1 {
+    .catering-section .position-1 {
         top: 32%;
         left: 35%;
         height: 50px;
