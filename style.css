@@ -173,7 +173,7 @@ p:last-child {
 a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
 }
 
 a:hover {
@@ -228,6 +228,7 @@ a:hover {
 
 .small-text  { font-size: 0.8rem;}
 .medium-text { font-size: 1.2rem;}
+.large-text { font-size: 2.1rem;}
 .big-text    { font-size: 2.6rem; }
 
 
@@ -280,6 +281,7 @@ footer nav a {
 /* Social links styling */
 .social-links {
     display: flex;
+    justify-content: center;
     gap: 0.3rem;
 }
 
@@ -462,12 +464,54 @@ a.credit-link {
 
 
 
-/* icons */
+/* icons-------------------- */
 
 .icon       { max-width: 6%; }
-.icon-2     { max-width: 20%; }
+.icon-2     { max-width: 28%; }
 .icon-size  { max-width: 100%; }
 
+
+.icon-small {
+    width: 35px;   /* Adjust the size of the icon */
+    height: 35px;  /* Maintain square ratio */
+    vertical-align: middle;  /* Align the icon with the text */
+    margin-right: 8px;  /* Add spacing between the icon and the text */
+}
+
+.icon-social img { max-width: 60%; }
+
+
+/* background circle colour ------ */
+
+.circle-background {
+    position: relative;           /* Allows the circle to be positioned inside */
+    padding: 20px;                /* Ensure consistent padding inside */
+    display: flex;                /* Flexbox for centering */
+    flex-direction: column;       /* Stack the elements vertically (h4 and p) */
+    justify-content: center;      /* Center content vertically */
+    align-items: center;          /* Center content horizontally */
+    text-align: center;           /* Align text to the center */
+}
+
+.circle-background h4,
+.circle-background p {
+    z-index: 1;                   /* Ensure text stays above the circle */
+    padding: 0;                   /* Ensure no extra padding */
+}
+
+
+.circle-background::before {
+    content: "";                  /* Empty content for the circle */
+    position: absolute;           /* Absolutely positioned relative to the parent */
+    top: 50%;                     /* Start circle from 50% vertically */
+    left: 50%;                    /* Start circle from 50% horizontally */
+    transform: translate(-50%, -50%); /* Center the circle using transform */
+    width: 18%;                   /* Responsive width, adjust percentage as needed */
+    padding-bottom: 18%;          /* Ensures circle height stays proportional to width */
+    background-color: #E4D49E;    /* Circle background color */
+    border-radius: 50%;           /* Make it a perfect circle */
+    z-index: -1;                  /* Ensure the circle stays behind the text */
+}
 
 
 .capped-width {
