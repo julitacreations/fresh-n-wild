@@ -566,7 +566,7 @@ a.credit-link {
 
 @media(max-width:64em) {
 
-    body { border: 2px solid green; padding: 0.5rem;}
+    /* body { border: 2px solid green; padding: 0.5rem;} */
 
 	.show-md { display: block; }
 	.hide-md { display: none;  }
@@ -608,7 +608,7 @@ a.credit-link {
 
     html { font-size: 14px;}
 
-    body { border: 2px solid blue;}
+    /* body { border: 2px solid blue;} */
 
     .show-sm { display: block; }
     .hide-sm { display: none;  }
@@ -670,7 +670,7 @@ a.credit-link {
 @media(max-width:36em) {
 
 
-    body { border: 2px solid lightblue;}
+    /* body { border: 2px solid lightblue;} */
 
     p {font-size: 0.9rem; }
 
@@ -707,9 +707,9 @@ a.credit-link {
 
 
     .catering-section .position-1 {
-        top: 32%;
-        left: 35%;
-        height: 50px;
+        top: 44%;
+        left: 37%;
+        height: 64px;
     }
 
     .flex-flip-xs { flex-direction: column-reverse; }
