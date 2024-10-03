@@ -606,6 +606,35 @@ a.credit-link {
 }
 
 
+/* Catering Contact Form Styles ---------------- */
+
+/*-- Contact Form & Button Styles -----------------------------*/
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 0.4rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  display: block;
+  border: 2px solid transparent;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #FFBE00;
+    outline: none;
+}
+
+form button {
+    background-color:#FFBE00;
+    color: inherit;
+    padding: 0.5rem 2rem;
+    appearance: none;
+    border: 2px solid #192b37;
+    border-radius: 3rem;
+    letter-spacing: 0.1em;
+  }
 
 
 
