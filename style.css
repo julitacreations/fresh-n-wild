@@ -144,20 +144,20 @@ h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 h2 span {
     font-family: 'Corinthia', cursive;
     color: #C7A930;
-    font-size: 3.6rem;
+    font-size: 3.8rem;
     text-transform: none;
  }
 
 p {
 	line-height: 1.4; 
 	margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 h1:last-child, 
@@ -171,6 +171,7 @@ p:last-child {
 }
 
 a {
+    font-size: 1.1rem;
     color: inherit;
     text-decoration: none;
     /* border-bottom: 1px solid; */
@@ -183,19 +184,37 @@ a:hover {
 .button {
     display: inline-block;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-decoration: none;
     border: 1.5px solid #C7A930;
-    border-radius: 0.2rem;
     color: #C7A930;
-    letter-spacing: 0.01em;
-    padding: 0.4rem 1rem;
+    letter-spacing: 0.03em;
+    padding: 0.6rem 1rem;
     transition: 0.3s;
 }
 
 .button:hover {
     background-color: #C7A930;
     color: white;
+}
+
+.button-dark {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1.5px solid #C7A930;
+    color: white;
+    background-color: #C7A930;
+    letter-spacing: 0.03em;
+    padding: 0.6rem 1rem;
+    transition: 0.3s;
+}
+
+.button-dark:hover {
+    background-color: #231F1F;
+    color: #C7A930;
+    border: 1.5px solid #231F1F;
 }
 
 
@@ -216,20 +235,18 @@ a:hover {
 .font-weight-bold       { font-weight: 500;}
 .font-weight-extra-bold { font-weight: 800;}
 
-.uppercase { text-transform: uppercase;
-}
-.no-text-transform { text-transform: none;
-}
+.uppercase          { text-transform: uppercase;}
+.no-text-transform  { text-transform: none;}
 
 
 .left   { text-align: left; }
 .center { text-align: center; }
 .right  { text-align: right; }
 
-.small-text  { font-size: 0.8rem;}
-.medium-text { font-size: 1.2rem;}
-.large-text { font-size: 2.1rem;}
-.big-text    { font-size: 2.6rem; }
+.small-text  { font-size: 0.9rem;}
+.medium-text { font-size: 1.4rem;}
+.large-text { font-size: 2.2rem;}
+.big-text    { font-size: 2.7rem; }
 
 
 
@@ -242,6 +259,7 @@ header a {
     border: none;
     color: inherit;
     padding: 0.5rem;
+    letter-spacing: 0.05em;
 }
 
 header a:hover {
@@ -278,7 +296,7 @@ footer nav a {
     font-size: 0.8rem; 
 }
 
-/* Social links styling */
+/* Social links styling ----*/
 .social-links {
     display: flex;
     justify-content: center;
@@ -305,22 +323,21 @@ footer .footer-logo {
 }
 
 
-
-/* Style only the copyright section */
+/* Style only the copyright section ---*/
 .copyright-section .subtle {
     font-style: italic;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 300;
 }
 
-/* Ensure the copyright and the link are in the same line */
+/* Ensure the copyright and the link are in the same line ----*/
 .copyright-section .subtle, 
 a.credit-link {
     display: inline;
 }
 
 
-/* Mobile menu button styles */
+/* Mobile menu button styles ----------------*/
 
 .hamburger-button {
     cursor: pointer;
@@ -358,7 +375,7 @@ a.credit-link {
 
 
 
-/* Header banner overlay -------*/
+/* Header banner overlay ------------*/
 
 .bg-overlay {
     position: relative;
@@ -376,7 +393,7 @@ a.credit-link {
     position: relative;
 }
 
-/* Gradient Overlay  */ 
+/* Gradient Overlay ----- */ 
 
 .bg-overlay-gradient::before { 
     background: linear-gradient(-30deg, rgba(25, 21, 21, 0.5), rgba(0,0,0,0));
@@ -384,7 +401,6 @@ a.credit-link {
 
 
 /* Images & Background Images—————————-—— */
-
 
 /* Images Styles—————————-—— */
 .bg-image {
@@ -422,7 +438,7 @@ a.credit-link {
     left: 29%;
     width: 15%;
     height: 182px;
-    z-index: 1; /* Adjust z-index for overlapping */
+    z-index: 1; 
 }
 
 .catering-section .position-2 {
@@ -506,8 +522,8 @@ a.credit-link {
     top: 50%;                     /* Start circle from 50% vertically */
     left: 50%;                    /* Start circle from 50% horizontally */
     transform: translate(-50%, -50%); /* Center the circle using transform */
-    width: 18%;                   /* Responsive width, adjust percentage as needed */
-    padding-bottom: 18%;          /* Ensures circle height stays proportional to width */
+    width: 22%;                   /* Responsive width, adjust percentage as needed */
+    padding-bottom: 22%;          /* Ensures circle height stays proportional to width */
     background-color: #E4D49E;    /* Circle background color */
     border-radius: 50%;           /* Make it a perfect circle */
     z-index: -1;                  /* Ensure the circle stays behind the text */
@@ -574,7 +590,7 @@ a.credit-link {
 
 .menu p {
     margin-top: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .menu h3 {
@@ -610,19 +626,19 @@ a.credit-link {
 
 @media(max-width:64em) {
 
-    /* body { border: 2px solid green; padding: 0.5rem;} */
+    body { border: 2px solid green; padding: 0.5rem;}
 
 	.show-md { display: block; }
 	.hide-md { display: none;  }
 
     .md-tall-80 { min-height: 80vh; }
 
-    h1      { font-size: 5.5rem; }
-    h1 span { font-size: 6.5rem; }
-    h2      { font-size: 1.6rem; }
-    h2 span { font-size: 3.1rem; }
+    h1      { font-size: 5.4rem; }
+    h1 span { font-size: 6.3rem; }
+    h2      { font-size: 1.7rem; }
+    h2 span { font-size: 3.2rem; }
 
-    .big-text {font-size: 2.3rem;}
+    .big-text {font-size: 2.4rem;}
 
     .catering-section .position-1 {
         top: 52%;
@@ -652,7 +668,7 @@ a.credit-link {
 
     html { font-size: 14px;}
 
-    /* body { border: 2px solid blue;} */
+    body { border: 2px solid blue;}
 
     .show-sm { display: block; }
     .hide-sm { display: none;  }
@@ -680,12 +696,14 @@ a.credit-link {
     }
 
 
-    h1      { font-size: 4.5rem; }
-    h1 span { font-size: 5.8rem; }
-    h2      { font-size: 1.5rem; }
-    h2 span { font-size: 2.8rem; }
+    h1      { font-size: 4.6rem; }
+    h1 span { font-size: 5.9rem; }
+    h2      { font-size: 1.7rem; }
+    h2 span { font-size: 3rem; }
 
-    .big-text {font-size: 2.1rem;}
+    p       { font-size: 1.2rem;}
+
+    .big-text {font-size: 2.3rem;}
 
     .flex-flip-sm { flex-direction: column-reverse; }
 
@@ -714,9 +732,9 @@ a.credit-link {
 @media(max-width:36em) {
 
 
-    /* body { border: 2px solid lightblue;} */
+    body { border: 2px solid lightblue;}
 
-    p {font-size: 0.9rem; }
+    p {font-size: 1.1rem; }
 
 	.show-xs { display: block; }
 	.hide-xs { display: none;  }
@@ -733,14 +751,14 @@ a.credit-link {
     .xs-padded-tb-lg   { padding-top: 10%; padding-bottom: 10%;}
 
 
-    h1      { font-size: 3rem; }
-    h1 span { font-size: 4.5rem; }
-    h2      { font-size: 1.3rem; }
-    h2 span { font-size: 2.2rem; }
+    h1      { font-size: 3.1rem; }
+    h1 span { font-size: 4.6rem; }
+    h2      { font-size: 1.5rem; }
+    h2 span { font-size: 2.6rem; }
 
-    .big-text {font-size: 2rem;}
+    .big-text {font-size: 2.2rem;}
 
-    .xs-header-h2 {font-size: 1.1rem;}
+    .xs-header-h2 {font-size: 1.2rem;}
 
     .xs-text-center    { text-align: center;}
     .xs-text-left      { text-align: left;}
