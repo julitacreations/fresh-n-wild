@@ -99,23 +99,86 @@
     </section>
 
     <!---Catering Contact Form Section ----------->
-    <section class="grid padded">
-        <div class="col-6 padded">
+    <section class="grid-center padded">
+        <h2 class="uppercase"> Contact us for a free quotation</h2>
+        <div class="col-10 padded">
 
-            <form class="padded-t-1">
-                <input type="text" name="_name" id="_name" placeholder="Name" />
+            <form class="padded-t-1 uppercase">
+                <!-- Name and Email Fields in One Row -->
+                <div class="form-row">
+                    <div>
+                        <label for="_name">Your Name*</label>
+                        <input type="text" name="_name" id="_name" placeholder="John Doe" >
+                    </div>
             
-                <input type="email" name="_replyto" id="_replyto" placeholder="Email" />
-        
-                <textarea name="message" id="message" placeholder="Message..." rows="4"></textarea>
+                    <div>
+                        <label for="_replyto">Your Email*</label>
+                        <input type="email" name="_replyto" id="_replyto" placeholder="Johndoe@emial.com">
+                    </div>
+                </div>
             
-                <button class="button" type="submit"> Send </button>
-                
-            </form> 
+                <!-- Number and Timeline Fields in One Row -->
+                <div class="form-row">
+                    <div>
+                        <label for="_number">Your Number*</label>
+                        <input type="tel" name="_number" id="_number" placeholder="+264811234567">
+                    </div>
+            
+                    <div>
+                        <label for="timeline">Desired Date and Time</label>
+                        <input type="text" id="_timeline" placeholder="10th February 2025 in the morning">
+                    </div>
+                </div>
+            
+                <!-- Options Field -->
+                <label for="services">Which Services are you interested in?</label>
+                <select id="services">
+                    <option value="web">Web Design / Development</option>
+                    <option value="web">Development Only</option>
+                    <option value="photo">Food Photography </option>
+                    <option value="restaurant">Restaurant Photography</option>
+                    <option value="product">Product Photography</option>
+                    <option value="product">UGC Creation</option>
+                </select>
+               
+            
+                <!-- Message Field -->
+                <label for="message">Describe your event...</label>
+                <textarea name="message" id="message" placeholder="Decribe your event, number of people..." rows="5"></textarea>
+            
+                <button class="button margin-t-1" type="submit">Send Message</button>
+            </form>
+
         </div>
     </section>
 
 
+    <!-- -Moving Banner ---------
+    <div class="container-ticker-banner">
+        <div class="tickerBanner">
+    
+          {% for message in page.banner_messages %}
+          <div class="text-block">{{message}}</div>
+          {% endfor %}
+    
+        </div>
+    </div>  -->
+
+    <!-- this goes the banner prefer calling?..... -->
+
+    <div class="grid padded-lr center">
+        <div class="col-12 padded-b-1">
+            <h3 class="uppercase">Prefer calling?</h3>
+            <a> 083 330 5162 </a>
+        </div>
+       
+    </div>
+
+
+    
+
+   
+    
      <!---Catering Section -linking to Catering page ------------------->
      <section class="grid-spaceAround center padded-t padded-b xs-padded-tb-lg catering-section">
         <div class="col-12 grid catering-images">
