@@ -117,7 +117,7 @@
                     </div>
                 </div>
             
-                <!-- Number and Timeline Fields in One Row -->
+                <!-- Number and budget Fields in One Row -->
                 <div class="form-row">
                     <div>
                         <label for="_number">Your Number*</label>
@@ -125,25 +125,39 @@
                     </div>
             
                     <div>
-                        <label for="timeline">Desired Date and Time</label>
-                        <input type="text" id="_timeline" placeholder="10th February 2025 in the morning">
+                        <label for="budget">Budget (N$)</label>
+                        <input type="text" name="_budget" id="_budget">
+                    </div>
+                </div>
+
+                  <!-- Number and Timeline Fields in One Row -->
+                  <div class="form-row">
+                    <div>
+                        <label for="date">Desired Date</label>
+                        <input type="date" name="_date" id="_date">
+                    </div>
+
+                    <div>
+                        <label for="time">Desired Time</label>
+                        <input type="time" name="_time" id="_time">
                     </div>
                 </div>
             
-                <!-- Options Field -->
-                <label for="services">Which Services are you interested in?</label>
-                <select id="services">
-                    <option value="web">Web Design / Development</option>
-                    <option value="web">Development Only</option>
-                    <option value="photo">Food Photography </option>
-                    <option value="restaurant">Restaurant Photography</option>
-                    <option value="product">Product Photography</option>
-                    <option value="product">UGC Creation</option>
-                </select>
-               
+                <!-- checkbox Field -->
+                 <div>
+                    <input type="checkbox">
+                    <label>Conference</label>
+                    <input type="checkbox">
+                    <label>Board Meeting</label>
+                    <input type="checkbox">
+                    <label>Birthday celebration</label>
+                    <input type="checkbox">
+                    <label>Cocktail</label>
+                </div>
+            
             
                 <!-- Message Field -->
-                <label for="message">Describe your event...</label>
+                <label for="message">Event details</label>
                 <textarea name="message" id="message" placeholder="Decribe your event, number of people..." rows="5"></textarea>
             
                 <button class="button margin-t-1" type="submit">Send Message</button>
