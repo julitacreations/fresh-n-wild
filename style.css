@@ -615,7 +615,7 @@ a.credit-link {
 form input, 
 form textarea {
   width: 100%;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.9rem;
   padding: 0.5rem;
   font-family: inherit;
   font-size: 0.9rem;
@@ -632,10 +632,15 @@ form input {
     color: rgb(66, 66, 66);
 }
 
+form p {
+    font-size: 1rem;
+}
+
 label {
     margin-bottom: 0.5rem;
     display: block;
 }
+
 
 form .button {
     appearance: none;
@@ -645,25 +650,36 @@ form .button {
     letter-spacing: 0.04em;
     padding: 0.5rem 1rem;
     transition: 0.3s;
-    text-transform: uppercase;
 }
 
-.form-row {
+.checkbox-group input {
+    width: auto;
+}
+
+.checkbox-item {
     display: flex;
-    gap: 10px; /* Adds space between the inputs */
-    margin-bottom: 1rem; /* Space between rows */
-    width: 100%; /* Make sure the row uses the full width */
+    align-items: center ;
+    margin-bottom: 0.1rem;
+    margin-left: 0.6rem;
+    font-style: italic;
 }
 
- /* Make each div within the row take full width */
- .form-row > div {
-    flex-grow: 1; /* Ensures the inputs grow to fill the available space */
+.checkbox-item label,
+.checkbox-item input {
+    margin-bottom: 0.3rem;
 }
 
-.form-row input {
-    flex: 1; /* Ensures the inputs take equal width */
+/* Ensure the checkbox and label are positioned correctly */
+.checkbox-item label {
+    flex: 1; /* Allows label to take available space */
+    margin-right: 0.5rem; /* Space between the label and checkbox */
 }
 
+.checkbox-item input {
+    flex-shrink: 0; /* Prevents checkbox from shrinking */
+    /* margin-left: auto; Aligns checkbox to the right of the label */
+    margin-left: 5%;
+}
 
 
 /* General CSS  Respondive Styles (Apply everywhere unless overrided)------------- */ 
