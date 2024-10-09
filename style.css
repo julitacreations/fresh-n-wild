@@ -479,6 +479,9 @@ a.credit-link {
 .bg-image-mezze { background-image: url('images/fresh-wild-mezze.jpg'); }
 
 
+/* image sliding container----------- */
+
+
 
 
 
@@ -786,7 +789,7 @@ form .button {
 
     .catering-section .position-1 {
         top: 30%;
-        left: 35%;
+        left: 37%;
         height: 90px;
     }
     .catering-section .position-2 {
