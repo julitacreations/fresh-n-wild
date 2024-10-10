@@ -153,7 +153,9 @@ h2 span {
     color: #C7A930;
     font-size: 3.8rem;
     text-transform: none;
- }
+}
+
+h4 { font-size: 1.4rem;}
 
 p {
 	line-height: 1.4; 
@@ -605,7 +607,7 @@ a.credit-link {
 
 .border-line {
     border: none;
-    border-bottom: 1px solid #C7A930;
+    border-bottom: 1.1px solid #C7A930;
     padding: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
