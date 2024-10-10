@@ -100,77 +100,79 @@
 
     <!---Catering Contact Form Section ----------->
     <section class="grid-center padded">
-        <h2 class="uppercase"> Contact us for a free quotation</h2>
-        <div class="col-10 padded padded-t-1">
+        <div class="col-10 bg-featured padded">
+            <h2 class="uppercase center"> Contact us for a free quotation</h2>
+            <div class="padded-t-1">
 
-            <form class="grid-spaceAround">
-                <!-- Name and Email Fields in One Row -->
-                <div class="col-5">
-                    <label for="_name">Your Name*</label>
-                    <input type="text" name="_name" id="_name" placeholder="John Doe" >
-                </div>
-                <div class="col-5">
-                    <label for="_replyto">Your Email*</label>
-                    <input type="email" name="_replyto" id="_replyto" placeholder="Johndoe@emial.com">
-                </div>
+                <form class="grid-spaceAround">
+                    <!-- Name and Email Fields in One Row -->
+                    <div class="col-5">
+                        <label for="_name">Your Name*</label>
+                        <input type="text" name="_name" id="_name" placeholder="John Doe" >
+                    </div>
+                    <div class="col-5">
+                        <label for="_replyto">Your Email*</label>
+                        <input type="email" name="_replyto" id="_replyto" placeholder="Johndoe@emial.com">
+                    </div>
+                
+                    <!-- Number and budget Fields in One Row -->
+                    <div class="col-5">
+                        <label for="_number">Your Number*</label>
+                        <input type="tel" name="_number" id="_number" placeholder="+264811234567">
+                    </div>
             
-                <!-- Number and budget Fields in One Row -->
-                <div class="col-5">
-                    <label for="_number">Your Number*</label>
-                    <input type="tel" name="_number" id="_number" placeholder="+264811234567">
-                </div>
+                    <div class="col-5">
+                        <label for="budget">Budget (N$)</label>
+                        <input type="text" name="_budget" id="_budget">
+                    </div>
+
+                    <!-- Number and Timeline Fields in One Row -->
+                    <div class="col-5">
+                        <label for="date">Desired Date</label>
+                        <input type="date" name="_date" id="_date">
+                    </div>
+
+                    <div class="col-5">
+                        <label for="time">Desired Time</label>
+                        <input type="time" name="_time" id="_time">
+                    </div>
         
-                <div class="col-5">
-                    <label for="budget">Budget (N$)</label>
-                    <input type="text" name="_budget" id="_budget">
-                </div>
-
-                <!-- Number and Timeline Fields in One Row -->
-                <div class="col-5">
-                    <label for="date">Desired Date</label>
-                    <input type="date" name="_date" id="_date">
-                </div>
-
-                <div class="col-5">
-                    <label for="time">Desired Time</label>
-                    <input type="time" name="_time" id="_time">
-                </div>
-    
-            
-                <!-- checkbox Field -->
-               
-                <div class="col-4 checkbox-group margin-b-1 margin-t-1">
-                    <p>Type of Event</p>
-                    <div class="checkbox-item">
-                        <label for="conference">Conference</label>
-                        <input type="checkbox" id="_conference" name="_conference" value="conference">
+                
+                    <!-- checkbox Field -->
+                
+                    <div class="col-4 checkbox-group margin-b-1 margin-t-1">
+                        <p>Type of Event</p>
+                        <div class="checkbox-item">
+                            <label for="conference">Conference</label>
+                            <input type="checkbox" id="_conference" name="_conference" value="conference">
+                        </div>
+                        <div class="checkbox-item">
+                            <label for="board-meeting">Board Meeting</label>
+                            <input type="checkbox" id="_meeting" name="_meeting" value="board_meeting">
+                        </div>
+                        <div class="checkbox-item">
+                            <label for="birthday-celebration">Birthday Celebration</label>
+                            <input type="checkbox" id="_birthday" name="_birthday" value="birthday_celebration">
+                        </div>
+                        <div class="checkbox-item">
+                            <label for="cocktail">Cocktail</label>
+                            <input type="checkbox" id="_cocktail" name="_cocktail" value="cocktail">
+                        </div>
                     </div>
-                    <div class="checkbox-item">
-                        <label for="board-meeting">Board Meeting</label>
-                        <input type="checkbox" id="_meeting" name="_meeting" value="board_meeting">
-                    </div>
-                    <div class="checkbox-item">
-                        <label for="birthday-celebration">Birthday Celebration</label>
-                        <input type="checkbox" id="_birthday" name="_birthday" value="birthday_celebration">
-                    </div>
-                    <div class="checkbox-item">
-                        <label for="cocktail">Cocktail</label>
-                        <input type="checkbox" id="_cocktail" name="_cocktail" value="cocktail">
-                    </div>
-                </div>
-                <div class="col-6"></div>
+                    <div class="col-6"></div>
 
-            
-            
-                <!-- Message Field -->
-                 <div class="col-11">
-                    <label for="message">Event details</label>
-                    <textarea name="message" id="message" placeholder="Decribe your event, number of people..." rows="5"></textarea>
-                </div>
-            
-                <button class="button margin-t-1" type="submit">Send Message</button>
-            </form>
+                
+                
+                    <!-- Message Field -->
+                    <div class="col-11">
+                        <label for="message">Event details</label>
+                        <textarea name="message" id="message" placeholder="Decribe your event, number of people..." rows="6"></textarea>
+                    </div>
+                
+                    <button class="button margin-t-1" type="submit">Send Message</button>
+                </form>
 
+            </div>
         </div>
     </section>
 
