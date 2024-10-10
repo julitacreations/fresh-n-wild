@@ -349,7 +349,7 @@ a.credit-link {
     line-height: 2.6;
     position: relative;
     right: 0.5rem;
-    z-index: 5;
+    z-index: 3;
 }
 
 .mobile-menu {
