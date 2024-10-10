@@ -29,10 +29,11 @@
 <!------ This is the body, where all of the contents of our page go  ------->
 <body>
 
+    <!-- This is the navigation bar  ------->
     <header class="grid padded-05 bg-dark light-text">
         <div class="col-3_sm-11-middle padded-0 sm-padded-b-0">
             <a href="/index.html">
-                <img src="/images/freshnwild-logo-reversed-out.svg" alt="Logo" class="logo">
+                <img src="/images/freshnwild-logo-reversed-out.svg" alt="Logo" class="logo md-logo">
             </a>
         </div>
         <nav class="col-9_sm-12-middle right uppercase font-weight-bold mob-hide padded-05 padded-r sm-text-center">
@@ -42,38 +43,25 @@
             <a href="/calendar.html"> Calendar </a>
             <a href="/contact.html"> Contact </a>
         </nav>
-        <!-- <div class="col-1"> 
+        <div class="col-1"> 
             <a class="hamburger-button mob-show right"> &#9776; </a>
-        </div> -->
+        </div>
     </header>
 
-    <!-- optional second navigation bar -->
-    <!-- <nav class="col-3-middle right uppercase">
-        <a href="story.html"> Our Story </a>
-        <a href="selection.html"> Selection </a>
-      </nav>
-      <div class="col-6-middle">
-        <a href="/index.html" class="logo uppercase center">
-          <h1>Cake Layered Co</h1>
-        </a>
-      </div>
-      <nav class="col-3-middle uppercase left">
-        <a href="process.html"> Our Process </a>
-        <a href="order.html"> Order </a>
-      </nav> -->
 
     <!---Mobile menu hamburger button -->
-    <!-- <div class="mobile-menu bg-light padded">  
+    <div class="mobile-menu bg-light padded">  
         <nav>
             <a href="/index.html"> Home </a>
             <a href="/menu.html"> Menu </a>
             <a href="/about.html"> About </a>
             <a href="/contact.html"> Contact </a>
         </nav>
-    </div> -->
+    </div>
 
-    
-     <section class="{{page.banner-image}} {{page.banner-height}} grid bg-image bg-image-hero bg-overlay bg-overlay-gradient tall-70">
+
+       <!-- This is the hero banner -->
+    <section class="  grid bg-image bg-image-hero bg-overlay bg-overlay-gradient tall-70">
         
         <div class="col-12-middle uppercase center padded light-text">
             <h1 class="featured-font no-text-transform">Book your Table</h1>
@@ -118,7 +106,7 @@
 
       <!---  Menu ------>
 
-     <section class="grid-center padded menu">
+    <section class="grid-center padded menu">
         <div class="col-12 center">
             <h2 class="lg-text"> Menu </h2>
         </div>
@@ -715,13 +703,11 @@
     </section>
 
 
-   
 
-
-     <!---Site Footer ----------->
+    <!---Site Footer ---------------------->
     <footer class="grid-spaceAround padded-lg padded-t padded-b-0 bg-dark light-text">
-    
-        <nav class="col-3_xs-6 xs-text-center xs-padded-1"> 
+
+        <nav class="col-3_xs-12 footer-nav xs-text-center xs-padded-1"> 
             <h4> Fresh 'n Wild </h4>
             <a href="/restaurant.html"> Restaurant </a>
             <a href="/coffeeshops.html"> Coffee Shops </a>
@@ -730,18 +716,20 @@
             <a href="/contact.html"> Contact </a>
         </nav>
 
-    
 
-        <div class="logo col-6-middle center hide-sm"> 
+
+        <div class="footer-logo col-6_xs-12-middle center xs-padded"> 
             <a href="/index.html">
                 <img src="/images/freshnwild-logo-reversed-out.svg" alt="Logo" class="logo">
             </a>
         </div>
-    
+
+        <div class="col-1"></div>
+
         <!-- Social links -->
-        <div class="col-3_xs-6 right xs-text-center xs-padded-05 xs-padded-b-0">
+        <div class="col-2_xs-12 xs-text-center xs-padded-1">
             <h4> Socials </h4>
-            <nav> 
+            <nav class="social-links"> 
                 <a href="#"> 
                     <img src="/images/facebook-icon-gold.svg" class="icon" alt="facebook icon" />       
                 </a>
@@ -750,12 +738,12 @@
                 </a>
             </nav>
         </div>
-    
+
         <!--Copyright -->
-        <div class="col-12 center xs-padded-05 italic padded-t-2 padded-b-1 copyright-section">
+        <!-- <div class="col-12 center xs-padded-05 italic padded-t-2 padded-b-1 copyright-section">
             <p class="subtle"> © 2024 Fresh 'n Wild | Website by <a class="credit-link">Julita Creations Studio</a> </p>
-        </div> 
-    
+        </div>  -->
+
     </footer>
 
 </body>

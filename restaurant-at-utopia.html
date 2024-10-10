@@ -1,79 +1,9 @@
-<!DOCTYPE html>
-<html>
-
-<!------- This is the head of the HTML for linking external resources & metadata ------->
-<head> 
-
-    <!-- The title for SEO & browser tabs -->
-    <title> Fresh 'n Wild </title>
-
-    <!-- Viewport meta tag -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Gridlex -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-
-    <!-- Add Google Fonts Here  ------>
-    <!-- Rubik  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
-    <!-- My own custom stylesheet-this always goes last -->
-    <link rel="stylesheet" href="/style.css">
-    
-</head>
-
-
-
-<!------ This is the body, where all of the contents of our page go  ------->
-<body>
-
-    <header class="grid padded-05 bg-dark light-text">
-        <div class="col-3_sm-11-middle padded-0 sm-padded-b-0">
-            <a href="/index.html">
-                <img src="/images/freshnwild-logo-reversed-out.svg" alt="Logo" class="logo">
-            </a>
-        </div>
-        <nav class="col-9_sm-12-middle right uppercase font-weight-bold mob-hide padded-05 padded-r sm-text-center">
-            <a href="/restaurant-at-utopia.html"> Restaurant </a>
-            <a href="/coffeeshops-woermann.html"> Coffee Shops </a>
-            <a href="/catering.html"> Catering </a>
-            <a href="/calendar.html"> Calendar </a>
-            <a href="/contact.html"> Contact </a>
-        </nav>
-        <!-- <div class="col-1"> 
-            <a class="hamburger-button mob-show right"> &#9776; </a>
-        </div> -->
-    </header>
-
-    <!-- optional second navigation bar -->
-    <!-- <nav class="col-3-middle right uppercase">
-        <a href="story.html"> Our Story </a>
-        <a href="selection.html"> Selection </a>
-      </nav>
-      <div class="col-6-middle">
-        <a href="/index.html" class="logo uppercase center">
-          <h1>Cake Layered Co</h1>
-        </a>
-      </div>
-      <nav class="col-3-middle uppercase left">
-        <a href="process.html"> Our Process </a>
-        <a href="order.html"> Order </a>
-      </nav> -->
-
-    <!---Mobile menu hamburger button -->
-    <!-- <div class="mobile-menu bg-light padded">  
-        <nav>
-            <a href="/index.html"> Home </a>
-            <a href="/menu.html"> Menu </a>
-            <a href="/about.html"> About </a>
-            <a href="/contact.html"> Contact </a>
-        </nav>
-    </div> -->
-
-    
-     <section class="{{page.banner-image}} {{page.banner-height}} grid bg-image bg-image-hero bg-overlay bg-overlay-gradient tall-70">
+---
+layout: default
+---
+   
+   <!-- This is the hero banner -->
+    <section class="{{page.banner-image}} {{page.banner-height}} grid bg-image bg-image-hero bg-overlay bg-overlay-gradient tall-70">
         
         <div class="col-12-middle uppercase center padded light-text">
             <h1 class="featured-font no-text-transform">Book your Table</h1>
@@ -118,7 +48,7 @@
 
       <!---  Menu ------>
 
-     <section class="grid-center padded menu">
+    <section class="grid-center padded menu">
         <div class="col-12 center">
             <h2 class="lg-text"> Menu </h2>
         </div>
@@ -713,50 +643,3 @@
             <div class="col-11 bg-image bg-image-bar tall-50"></div>
         </div>
     </section>
-
-
-   
-
-
-     <!---Site Footer ----------->
-    <footer class="grid-spaceAround padded-lg padded-t padded-b-0 bg-dark light-text">
-    
-        <nav class="col-3_xs-6 xs-text-center xs-padded-1"> 
-            <h4> Fresh 'n Wild </h4>
-            <a href="/restaurant.html"> Restaurant </a>
-            <a href="/coffeeshops.html"> Coffee Shops </a>
-            <a href="/catering.html"> Catering </a>
-            <a href="/calendar"> Calendar </a>
-            <a href="/contact.html"> Contact </a>
-        </nav>
-
-    
-
-        <div class="logo col-6-middle center hide-sm"> 
-            <a href="/index.html">
-                <img src="/images/freshnwild-logo-reversed-out.svg" alt="Logo" class="logo">
-            </a>
-        </div>
-    
-        <!-- Social links -->
-        <div class="col-3_xs-6 right xs-text-center xs-padded-05 xs-padded-b-0">
-            <h4> Socials </h4>
-            <nav> 
-                <a href="#"> 
-                    <img src="/images/facebook-icon-gold.svg" class="icon" alt="facebook icon" />       
-                </a>
-                <a href="#">
-                    <img src="/images/instagram-icon-gold.svg" class="icon" alt="instagram icon" />   
-                </a>
-            </nav>
-        </div>
-    
-        <!--Copyright -->
-        <div class="col-12 center xs-padded-05 italic padded-t-2 padded-b-1 copyright-section">
-            <p class="subtle"> © 2024 Fresh 'n Wild | Website by <a class="credit-link">Julita Creations Studio</a> </p>
-        </div> 
-    
-    </footer>
-
-</body>
-</html>
