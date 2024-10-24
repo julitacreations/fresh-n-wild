@@ -438,7 +438,7 @@ a.credit-link {
 /* Positioning for the individual images */
 .catering-section .position-1 {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 29%;
     width: 15%;
     height: 182px;
@@ -790,7 +790,7 @@ form .button {
     .flex-flip-sm { flex-direction: column-reverse; }
 
     .catering-section .position-1 {
-        top: 30%;
+        top: 36%;
         left: 37%;
         height: 90px;
     }
