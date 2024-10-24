@@ -300,6 +300,12 @@ footer nav a {
     font-size: 0.8rem; 
 }
 
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
 /* Social links styling ----*/
 .social-links {
     display: flex;
@@ -870,25 +876,6 @@ form .button {
 
     .flex-flip-xs { flex-direction: column-reverse; }
 
-
-  
-    footer .footer-nav {
-        order: 1;
-        width: 100%;
-    }
-
-    footer .social-links {
-        order: 2;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    footer .footer-logo {
-        order: 3;
-        width: 30%;
-        justify-content: center;
-    }
 
     footer .logo {
         max-width: 60%;
