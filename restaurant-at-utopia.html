@@ -455,10 +455,13 @@ layout: default
                 </div>
             </div>
 
-            <div class="col-12">
-                <a href="#" class="uppercase center margin-t-1 button-color"> < Evening Menu </a>
-                <a href="#" class="uppercase center margin-t-1 button-color">Pizza Menu > </a>
+            <div class="col-5 left padded-t">
+                <a href="{{ project.previous-project_url }}" class="uppercase"> &#8592; Evening Menu</a> 
             </div>
+            <div class="col-5 right padded-t">
+                <a href="{{ project.next-project_url }}" class="uppercase">Pizza Menu &#8594;</a> 
+            </div>
+        
 
             
         </div>
