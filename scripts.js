@@ -6,6 +6,17 @@ $( document ).ready(function() {
         $(this).toggleClass('active');
       });
 
+     // Show and hide menu
+    $('.menu-reveal').click(function() {
+        // Get the menu ID from the clicked button's data-menu attribute
+        const menuId = $(this).data('menu');
+        
+        // Hide the selected menu
+        $('.menu-content').hide();
+        
+        // Show the selected menu
+        $('#' + menuId).show();
+      });  
 
       
        // Accordion
