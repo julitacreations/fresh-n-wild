@@ -693,6 +693,54 @@ form .button {
 }
 
 
+
+/* Ticket Banner slider Styles-------------------*/
+  
+.text-block {
+    padding: 0.8%;
+}
+
+:root {
+--bannerBlockLength: 280px;
+--bannerBlockTime: 2s;
+}
+
+.container-ticker-banner{
+    overflow-X: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #C7A930;
+    color: #FCFAF5;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+  
+}
+.tickerBanner{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+  
+.tickerBanner div{
+    display: inline-block;
+    padding: 1vw;
+    flex-shrink: 0;
+    position: relative;
+    animation: ticker 2s infinite linear;
+    animation-duration: var(--bannerBlockTime), 2s;
+}
+  
+@keyframes ticker {
+    from {left:0}
+    to   {left:var(--bannerBlockLength)}
+}
+  
+
+
+
+
+
 /* General CSS  Respondive Styles (Apply everywhere unless overrided)------------- */ 
 
 .show-xs, 
@@ -932,49 +980,3 @@ form .button {
 
 
 
-
-
-/* Ticket Banner slider Styles (possible option to use)-------------------*/
-/*   
-.text-block {
-    padding: 0.8%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-} */
-
-/* :root {
---bannerBlockLength: 280px;
---bannerBlockTime: 2s;
-} */
-
-/* .container-ticker-banner{
-    overflow-X: hidden;
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    /* color: #231F1F;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 0.8rem;
-}  */
-/* .tickerBanner{
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: center;
-} */
-  
-/* .tickerBanner div{
-    display: inline-block;
-    padding: 1vw;
-    flex-shrink: 0;
-    position: relative;
-    animation: ticker 2s infinite linear;
-    animation-duration: var(--bannerBlockTime), 2s;
-}
-   */
-/* @keyframes ticker {
-    from {left:0}
-    to   {left:var(--bannerBlockLength)}
-}
-   */
-
-  

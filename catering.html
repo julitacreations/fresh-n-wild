@@ -1,5 +1,14 @@
 ---
 layout: default
+title: ticker banner
+banner_messages:
+ - Website development
+ - Mobile responsive
+ - Impactful
+ - Website design 
+ - Purpose-driven
+ - Food Photography
+ - Thoughtful
 ---
 
     <!---Hero Catering Section------>
@@ -144,16 +153,9 @@ layout: default
     </section>
 
 
-    <!-- -Moving Banner ---------
-    <div class="container-ticker-banner">
-        <div class="tickerBanner">
-    
-          {% for message in page.banner_messages %}
-          <div class="text-block">{{message}}</div>
-          {% endfor %}
-    
-        </div>
-    </div>  -->
+    <!-------moving slider banner------>
+
+    {% include moving-banner.html %}
 
     <!-- this goes the banner prefer calling?..... -->
 
@@ -191,7 +193,7 @@ layout: default
         </div>
     </section>
 
-    <!-- Boardroom section ------->
+    <!-- Boardroom section -----
     <section class="grid-middle bg-featured tall-60 padded center light-text bg-image bg-image-hero bg-overlay bg-overlay-gradient">
         
         <div class="col-12 padded">
@@ -204,7 +206,7 @@ layout: default
             <a href="#" class="button-dark margin-t-1">Enquire now</a>
         </div>
         
-    </section>
+    </section> -->
 
 
    
