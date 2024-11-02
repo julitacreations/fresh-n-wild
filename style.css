@@ -156,6 +156,7 @@ h2 span {
 }
 
 h4 { font-size: 1.4rem;}
+h5 { font-size: 1rem;}
 
 p {
 	line-height: 1.4; 
@@ -281,11 +282,7 @@ h1 span {
     font-size: 7.5rem;
 }
 
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 
 footer a {
     border-bottom: none;
@@ -297,24 +294,22 @@ footer nav a {
     display: block;
     padding: 0.3rem 0;
     margin: 0.1rem;
-    font-size: 0.8rem; 
+    font-size: 0.9rem; 
 }
 
-.footer-nav {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-}
 
 /* Social links styling ----*/
-.social-links {
+
+.social-link-1 {
+    max-width: 100%;
     display: flex;
     justify-content: center;
-    gap: 0.3rem;
 }
 
+
+
 .social-links img {
-    max-width: 45%;
+    max-width: 15%;
     margin-left: 0;
 }
 
@@ -322,21 +317,16 @@ footer nav a {
     margin-right: -1rem;
 }
 
-
-
-footer .footer-logo {
-    max-width: 40%;
-    height: auto; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-logo img {
+    max-width: 80%;
 }
+
 
 
 /* Style only the copyright section ---*/
 .copyright-section .subtle {
-    font-style: italic;
-    font-size: 0.6rem;
+    /* font-style: italic; */
+    font-size: 0.7rem;
     font-weight: 300;
 }
 
