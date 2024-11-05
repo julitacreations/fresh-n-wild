@@ -130,6 +130,7 @@ body {
     font-family: 'Rubik', sans-serif;
     color:#231F1F;
     background-color: #FCFAF5;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -309,7 +310,7 @@ footer nav a {
 
 
 .social-links img {
-    max-width: 15%;
+    max-width: 18%;
     margin-left: 0;
 }
 
@@ -410,10 +411,13 @@ a.credit-link {
     background-repeat: no-repeat;
 }
 
+
+
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 .landscape { padding-bottom: 65%; }
 .portrait { padding-bottom: 125%; }
 .square { padding-bottom: 100%; }
+
 
 
 /* Background Position ----*/
@@ -697,6 +701,7 @@ form .button {
   .slider-item {
     padding: 0.9rem;
     display: none;
+   
   }
   
   .slider-item:first-child {
@@ -705,28 +710,19 @@ form .button {
   
   /*Arrows*/
   .slick-next {
-    right: 10px;
-    font-size: 24px; /* Ensure they are visible */
-    color: #C7A930; /* Customize color */
-    z-index: 1;
-    display: block; /* Ensure they are not hidden */
-
+    right: 25px;
   }
   .slick-prev {
-    left: 10px;
-    font-size: 24px; /* Ensure they are visible */
-    color: #C7A930; /* Customize color */
-    z-index: 1;
-    display: block; /* Ensure they are not hidden */
+    left: 25px;
   }
 
   
   .slick-next::before, 
   .slick-prev::before {
         font-family: inherit;
-        font-size: 20px;
+        font-size: 30px;
         line-height: 1;
-        opacity: .75;
+        opacity: .95;
         color: #C7A930;
   }
   
@@ -789,8 +785,8 @@ form .button {
 }
   
 @keyframes ticker {
-    from {left:0}
-    to   {left:var(--bannerBlockLength)}
+    from { left: var(--bannerBlockLength); } /* Start off-screen right */
+    to   { left: 0; } /* End at 0, off-screen left */
 }
   
 
@@ -843,9 +839,15 @@ form .button {
     header .md-logo {
         max-width: 80%;
     }
-    footer .md-logo {
-        max-width: 60%;
+  
+    .footer-logo img {
+        max-width: 50%;
     }
+
+    .social-links img {
+        max-width: 26%;
+    }
+
   
 
 }
@@ -900,6 +902,8 @@ form .button {
 
     .flex-flip-sm { flex-direction: column-reverse; }
 
+    .icon-2     { max-width: 19%; }
+
     .catering-section .position-1 {
         top: 36%;
         left: 37%;
@@ -919,6 +923,13 @@ form .button {
     .circle-background::before {
         width: 33%;                   /* Responsive width, adjust percentage as needed */
         padding-bottom: 33%;          /* Ensures circle height stays proportional to width */
+    }
+
+    .social-links a {
+        margin-right: 0;
+    }
+    .social-links img {
+        max-width: 33%;
     }
     
 
@@ -965,6 +976,7 @@ form .button {
 
     .xs-icon    { max-width: 10%;}
     .icon-size  { max-width: 30%;}
+    .icon-2     { max-width: 25%; }
 
 
     .catering-section .position-1 {
