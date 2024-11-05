@@ -890,12 +890,12 @@ form .button {
     }
 
 
-    h1      { font-size: 4.6rem; }
-    h1 span { font-size: 5.9rem; }
-    h2      { font-size: 1.7rem; }
-    h2 span { font-size: 3rem; }
+    h1      { font-size: 4.7rem; }
+    h1 span { font-size: 6rem; }
+    h2      { font-size: 1.8rem; }
+    h2 span { font-size: 3.1rem; }
 
-    p       { font-size: 1.2rem;}
+    p       { font-size: 1.3rem;}
 
     .large-text { font-size: 1.7rem;}
     .big-text {font-size: 2.3rem;}
@@ -944,7 +944,7 @@ form .button {
 
     body { border: 2px solid lightblue;}
 
-    p {font-size: 1.1rem; }
+    p {font-size: 1.2rem; }
 
 	.show-xs { display: block; }
 	.hide-xs { display: none;  }
@@ -961,14 +961,14 @@ form .button {
     .xs-padded-tb-lg   { padding-top: 10%; padding-bottom: 10%;}
 
 
-    h1      { font-size: 3.1rem; }
-    h1 span { font-size: 4.6rem; }
-    h2      { font-size: 1.5rem; }
-    h2 span { font-size: 2.6rem; }
+    h1      { font-size: 3.2rem; }
+    h1 span { font-size: 4.7rem; }
+    h2      { font-size: 1.6rem; }
+    h2 span { font-size: 2.7rem; }
 
-    .big-text {font-size: 2.2rem;}
+    .big-text {font-size: 2.3rem;}
 
-    .xs-header-h2 {font-size: 1.2rem;}
+    .xs-header-h2 {font-size: 1.3rem;}
 
     .xs-text-center    { text-align: center;}
     .xs-text-left      { text-align: left;}
