@@ -706,10 +706,20 @@ form .button {
   /*Arrows*/
   .slick-next {
     right: 10px;
+    font-size: 24px; /* Ensure they are visible */
+    color: #C7A930; /* Customize color */
+    z-index: 1;
+    display: block; /* Ensure they are not hidden */
+
   }
   .slick-prev {
     left: 10px;
+    font-size: 24px; /* Ensure they are visible */
+    color: #C7A930; /* Customize color */
+    z-index: 1;
+    display: block; /* Ensure they are not hidden */
   }
+
   
   .slick-next::before, 
   .slick-prev::before {
