@@ -688,7 +688,60 @@ form .button {
 
 
 
-/* Ticket Banner slider Styles-------------------*/
+/* Slider styles ----------------------*/
+  
+  .slider-container {
+    padding: 5%;
+  }
+  
+  .slider-item {
+    padding: 0.9rem;
+    display: none;
+  }
+  
+  .slider-item:first-child {
+    display: block;
+  }
+  
+  /*Arrows*/
+  .slick-next {
+    right: 10px;
+  }
+  .slick-prev {
+    left: 10px;
+  }
+  
+  .slick-next::before, 
+  .slick-prev::before {
+        font-family: inherit;
+        font-size: 20px;
+        line-height: 1;
+        opacity: .75;
+        color: #C7A930;
+  }
+  
+  /*DOTS*/
+  .slick-dots {
+         bottom: 10px;
+         left: 0; /* This align the dots perfectly to the center, do not delete */
+  }
+  
+  .slick-dots li,
+  .slick-dots li button {
+         width: 10px;
+  }
+  
+  .slick-dots li button::before {
+    color: #231F1F;
+  }
+  
+  .slick-dots li.slick-active button::before {
+         color: #C7A930;
+  }
+
+
+  
+/* Ticker Banner slider Styles-------------------*/
   
 .text-block {
     padding: 0.9%;
