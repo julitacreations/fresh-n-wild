@@ -162,7 +162,7 @@ h5 { font-size: 1rem;}
 p {
 	line-height: 1.4; 
 	margin-bottom: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 h1:last-child, 
@@ -944,7 +944,7 @@ form .button {
 
     body { border: 2px solid lightblue;}
 
-    p {font-size: 1.2rem; }
+    p {font-size: 1.3rem; }
 
 	.show-xs { display: block; }
 	.hide-xs { display: none;  }
