@@ -130,6 +130,9 @@ body {
     font-family: 'Rubik', sans-serif;
     color:#231F1F;
     background-color: #FCFAF5;
+}
+
+html, body {
     overflow-x: hidden;
 }
 
@@ -146,13 +149,13 @@ h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 500;
 }
 h2 span {
     font-family: 'Corinthia', cursive;
     color: #C7A930;
-    font-size: 3.8rem;
+    font-size: 4rem;
     text-transform: none;
 }
 
@@ -813,12 +816,12 @@ form .button {
 
     h1      { font-size: 5.4rem; }
     h1 span { font-size: 6.3rem; }
-    h2      { font-size: 1.9rem; }
-    h2 span { font-size: 3.5rem; }
+    h2      { font-size: 2.1rem; }
+    h2 span { font-size: 3.8rem; }
 
     .smaller-text { font-size: 1.1rem;}
     .large-text { font-size: 1.9rem;}
-    .big-text   {font-size: 2.5rem;}
+    .big-text   {font-size: 2.6rem;}
     
 
     .catering-section .position-1 {
@@ -887,13 +890,13 @@ form .button {
 
     h1      { font-size: 4.8rem; }
     h1 span { font-size: 6rem; }
-    h2      { font-size: 1.8rem; }
-    h2 span { font-size: 3.5rem; }
+    h2      { font-size: 2rem; }
+    h2 span { font-size: 3.6rem; }
 
     p       { font-size: 1.3rem;}
 
     .large-text { font-size: 1.7rem;}
-    .big-text {font-size: 2.5rem;}
+    .big-text {font-size: 2.6rem;}
 
     .flex-flip-sm { flex-direction: column-reverse; }
 
@@ -963,8 +966,8 @@ form .button {
 
     h1      { font-size: 4rem; }
     h1 span { font-size: 5.4rem; }
-    h2      { font-size: 1.6rem; }
-    h2 span { font-size: 2.7rem; }
+    h2      { font-size: 1.9rem; }
+    h2 span { font-size: 3.2rem; }
 
     .xs-header-h2 {font-size: 1.5rem;}
 
