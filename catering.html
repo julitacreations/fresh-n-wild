@@ -15,7 +15,7 @@ banner_messages:
         <div class="col-12-middle uppercase center padded light-text">
             <h1 class="featured-font no-text-transform">Planning an Event?</h1>
             <h2 class="font-weight-normal xs-header-h2">Weddings | Special Occassions | Parties |  <br> 
-                corporate catering | End-of-year Functions 
+                Corporate | End-of-year Functions 
             </h2>
         </div>
       
@@ -48,40 +48,40 @@ banner_messages:
     </section>
 
     <!---Catering Contact Form Section ----------->
-    <section class="grid-center padded" id="quote">
+    <section class="grid-center padded xs-padded-1" id="quote">
         <div class="col-10_sm-12 bg-featured padded">
             <h2 class="uppercase center"> Contact us for a free quotation</h2>
             <div class="padded-t-1">
 
                 <form class="grid-spaceAround">
                     <!-- Name and Email Fields in One Row -->
-                    <div class="col-5_sm-10">
+                    <div class="col-5_sm-11">
                         <label for="_name">Your Name*</label>
                         <input type="text" name="_name" id="_name" placeholder="John Doe" >
                     </div>
-                    <div class="col-5_sm-10">
+                    <div class="col-5_sm-11">
                         <label for="_replyto">Your Email*</label>
                         <input type="email" name="_replyto" id="_replyto" placeholder="Johndoe@emial.com">
                     </div>
                 
                     <!-- Number and budget Fields in One Row -->
-                    <div class="col-5_sm-10">
+                    <div class="col-5_sm-11">
                         <label for="_number">Your Number*</label>
                         <input type="tel" name="_number" id="_number" placeholder="+264811234567">
                     </div>
             
-                    <div class="col-5_sm-10">
+                    <div class="col-5_sm-11">
                         <label for="budget">Budget (N$)</label>
                         <input type="text" name="_budget" id="_budget">
                     </div>
 
                     <!-- Number and Timeline Fields in One Row -->
-                    <div class="col-5_sm-10">
+                    <div class="col-5_sm-11">
                         <label for="date">Desired Date</label>
                         <input type="date" name="_date" id="_date">
                     </div>
 
-                    <div class="col-5_sm-10">
+                    <div class="col-5_sm-11">
                         <label for="time">Desired Time</label>
                         <input type="time" name="_time" id="_time">
                     </div>
@@ -89,47 +89,54 @@ banner_messages:
                 
                     <!-- checkbox Field -->
                 
-                    <div class="col-4 checkbox-group margin-b-1 margin-t-1">
+                    <div class="col-5 checkbox-group margin-b-1 margin-t-1">
                         <p>Type of Event</p>
                         <div class="checkbox-item">
-                            <label for="birthday-celebration">Birthday Celebration</label>
                             <input type="checkbox" id="_birthday" name="_birthday" value="birthday_celebration">
+                            <label for="birthday-celebration">Birthday Celebration</label>
+                            
                         </div>
                         <div class="checkbox-item">
-                            <label for="occassion">Special Occassion</label>
                             <input type="checkbox" id="_occassion" name="_occassion" value="occassion">
+                            <label for="occassion">Special Occassion</label>
+                            
                         </div>
                         <div class="checkbox-item">
-                            <label for="wedding">Small Wedding</label>
                             <input type="checkbox" id="_wedding" name="_wedding" value="wedding">
+                            <label for="wedding">Small Wedding</label>
+                            
                         </div>
                         <div class="checkbox-item">
-                            <label for="year-end">End-of-year</label>
                             <input type="checkbox" id="_year-end" name="_year-end" value="year-end">
+                            <label for="year-end">End-of-year</label>
+                            
                         </div>
                         <div class="checkbox-item">
-                            <label for="corporate">Corporate</label>
                             <input type="checkbox" id="_corporate" name="_corporate" value="corporate">
+                            <label for="corporate">Corporate</label>
+                            
                         </div>
                     </div>
                     
-                    <div class="col-4 checkbox-group margin-b-1 margin-t-1">
+                    <div class="col-5 checkbox-group margin-b-1 margin-t-1">
                         <p>Number of Guests</p>
                         <div class="checkbox-item">
-                            <label for="ten">Less than 10</label>
                             <input type="checkbox" id="_ten" name="_ten" value="ten">
+                            <label for="ten">Less than 10</label>
                         </div>
                         <div class="checkbox-item">
-                            <label for="twenty">10 to 20 guests</label>
                             <input type="checkbox" id="_twenty" name="_twenty" value="twenty">
+                            <label for="twenty">10 to 20 guests</label>
                         </div>
                         <div class="checkbox-item">
-                            <label for="fifty">20 to 50 guests</label>
                             <input type="checkbox" id="_fifty" name="_fifty" value="fifty">
+                            <label for="fifty">20 to 50 guests</label>
+                            
                         </div>
                         <div class="checkbox-item">
-                            <label for="overfifty">More than 50 guests</label>
                             <input type="checkbox" id="_overfifty" name="_overfifty" value="overfifty">
+                            <label for="overfifty">More than 50 guests</label>
+                          
                         </div>
                     
                     </div>
@@ -149,53 +156,19 @@ banner_messages:
         </div>
     </section>
 
-
-    <!-------moving slider banner------>
-
-    {% include moving-banner.html %}
-
-
-
-
-    
-
-   
-    
-    <!---Catering Section -gallery section ------------------->
-    <!-- <section class="grid-spaceAround center padded-t padded-b xs-padded-tb-lg catering-section">
-        <div class="col-12 grid catering-images">
-            <div class="col-4_sm-5-middle">
-                <div class="bg-image bg-image-mezze landscape"></div>
+    <section class="center">
+        <div class="grid-spaceAround padded-sm">
+            <div class="col-4_sm-7_xs-9 padded-1">
+                <img src="/images/phone-icon-gold.svg" class="icon-2" alt="contact telephone" />
+                <p class="font-weight-bold">083 330 5162</p>
             </div>
-            <div class="col-1-bottom">
-                <div class="bg-image bg-image-bowl position-1"></div>
-            </div>
-            <div class="col-3-bottom">
-                <div class="bg-image bg-image-employee portrait"></div>
-            </div>
-            <div class="col-2 position-2">
-                <div class="bg-image bg-image-cappuccino landscape"></div>
-            </div>
-            <div class="col-3-middle position-3">
-                <div class="bg-image bg-image-bar square"></div>
+            <div class="col-4_sm-7_xs-9 padded-1">
+                <img src="/images/mail-icon-gold.svg" class="icon-2" alt="contact telephone" />
+                <p class="font-weight-bold">catering@freshnwild.net</p>
             </div>
         </div>
-    </section> -->
-
-    <!-- Boardroom section -----
-    <section class="grid-middle bg-featured tall-60 padded center light-text bg-image bg-image-hero bg-overlay bg-overlay-gradient">
-        
-        <div class="col-12 padded">
-            <h2 class="uppercase">Boardroom Hire</h2>
-            <p>Fresh ‘n Wild offers you an affordable and effective solution for your conferencing needs in Windhoek.
-                Situated in the quiet suburb of Klein Windhoek, in a beautiful garden surrounded by old trees away from the hustle and bustle of city life.</p>
-            <p>Catering · Free WiFi · Presentation Equipment · Secure Parking</p>
-        </div>
-        <div class="col-12">
-            <a href="#" class="button-dark margin-t-1">Enquire now</a>
-        </div>
-        
-    </section> -->
+    </section>
+  
     
      <!-- New Gallery section test ----->
      

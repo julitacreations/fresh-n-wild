@@ -492,7 +492,7 @@ a.credit-link {
 
 /* icons-------------------- */
 
-.icon       { max-width: 6%; }
+.icon       { max-width: 7%; }
 .icon-2     { max-width: 28%; }
 .icon-size  { max-width: 100%; }
 
@@ -628,7 +628,7 @@ form input,
 form textarea {
   width: 100%;
   margin-bottom: 0.9rem;
-  padding: 0.5rem;
+  padding: 0.8rem;
   font-family: inherit;
   font-size: 0.9rem;
   display: block;
@@ -672,7 +672,7 @@ form .button {
     display: flex;
     align-items: center ;
     margin-bottom: 0.1rem;
-    margin-left: 0.6rem;
+    margin-left: 0.5rem;
     font-style: italic;
 }
 
@@ -690,7 +690,7 @@ form .button {
 .checkbox-item input {
     flex-shrink: 0; /* Prevents checkbox from shrinking */
     /* margin-left: auto; Aligns checkbox to the right of the label */
-    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
@@ -807,7 +807,7 @@ form .button {
 
 @media(max-width:64em) {
 
-    /* body { border: 2px solid green; padding: 0.5rem;} */
+    body { border: 2px solid green; padding: 0.5rem;}
 
 	.show-md { display: block; }
 	.hide-md { display: none;  }
@@ -858,7 +858,7 @@ form .button {
 
     html { font-size: 14px;}
 
-    /* body { border: 2px solid blue;} */
+    body { border: 2px solid blue;}
 
     .show-sm { display: block; }
     .hide-sm { display: none;  }
@@ -893,13 +893,14 @@ form .button {
     h2      { font-size: 2rem; }
     h2 span { font-size: 3.6rem; }
 
-    p       { font-size: 1.3rem;}
+    p       { font-size: 1.4rem;}
 
     .large-text { font-size: 1.7rem;}
     .big-text {font-size: 2.6rem;}
 
     .flex-flip-sm { flex-direction: column-reverse; }
 
+    .icon       { max-width: 10%;}
     .icon-2     { max-width: 19%; }
 
     .catering-section .position-1 {
@@ -943,9 +944,7 @@ form .button {
 @media(max-width:36em) {
 
 
-    /* body { border: 2px solid lightblue;} */
-
-    p {font-size: 1.3rem; }
+    body { border: 2px solid lightblue;}
 
 	.show-xs { display: block; }
 	.hide-xs { display: none;  }
@@ -956,16 +955,24 @@ form .button {
     .xs-padded-2       { padding: 2rem;}
     .xs-padded-1       { padding: 1rem;}
     .xs-padded-05      { padding: 0.5rem;}
+    .xs-padded-6         { padding: 6%;}
 
     .xs-padded-t-1     { padding-top: 1rem;}
 
     .xs-padded-tb-lg   { padding-top: 10%; padding-bottom: 10%;}
+    .xs-padded-tb-0     { 
+        padding-top: 0;
+        padding-bottom:0;
+    }
 
     .xs-margin-b      { margin-bottom: -1rem;}
 
 
     h1      { font-size: 4rem; }
-    h1 span { font-size: 5.4rem; }
+    h1 span { 
+        font-size: 5.4rem;
+        line-height: 0.8;
+     }
     h2      { font-size: 1.9rem; }
     h2 span { font-size: 3.2rem; }
 
@@ -975,7 +982,7 @@ form .button {
     .xs-text-left      { text-align: left;}
     .xs-text-right     { text-align: right;}
 
-    .xs-icon    { max-width: 10%;}
+    .icon       { max-width: 18%;}
     .icon-size  { max-width: 30%;}
     .icon-2     { max-width: 25%; }
 
