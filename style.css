@@ -301,6 +301,30 @@ footer nav a {
 }
 
 
+/* chat button styles------ */
+.float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+.float:hover {
+    background-color: #128C7E;
+}
+.whatsapp-icon {
+    width: 45px; /* Adjust the size */
+    height: 45px;
+}
+
+
 /* Social links styling ----*/
 
 .social-link-1 {
