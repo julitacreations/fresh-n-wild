@@ -830,7 +830,7 @@ form .button {
 
 @media(max-width:64em) {
 
-    body { border: 2px solid green; padding: 0.5rem;}
+    /* body { border: 2px solid green; padding: 0.5rem;} */
 
 	.show-md { display: block; }
 	.hide-md { display: none;  }
@@ -881,7 +881,7 @@ form .button {
 
     html { font-size: 14px;}
 
-    body { border: 2px solid blue;}
+    /* body { border: 2px solid blue;} */
 
     .show-sm { display: block; }
     .hide-sm { display: none;  }
@@ -967,7 +967,7 @@ form .button {
 @media(max-width:36em) {
 
 
-    body { border: 2px solid lightblue;}
+    /* body { border: 2px solid lightblue;} */
 
 	.show-xs { display: block; }
 	.hide-xs { display: none;  }
