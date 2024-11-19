@@ -555,8 +555,8 @@ a.credit-link {
     top: 50%;                     /* Start circle from 50% vertically */
     left: 50%;                    /* Start circle from 50% horizontally */
     transform: translate(-50%, -50%); /* Center the circle using transform */
-    width: 25%;                   /* Responsive width, adjust percentage as needed */
-    padding-bottom: 25%;          /* Ensures circle height stays proportional to width */
+    width: 20%;                   /* Responsive width, adjust percentage as needed */
+    padding-bottom: 20%;          /* Ensures circle height stays proportional to width */
     background-color: #E4D49E;    /* Circle background color */
     border-radius: 50%;           /* Make it a perfect circle */
     z-index: -1;                  /* Ensure the circle stays behind the text */
