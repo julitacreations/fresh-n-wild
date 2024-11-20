@@ -25,18 +25,21 @@ seo:
         <div class="padded-t-1">
 
             <form class="grid-spaceAround" name="contact" method="POST" data-netlify="true">
+                <!-- Hidden input field to name the form for Netlify -->
+                <input type="hidden" name="form-name" value="contact">
+                
                 <!-- Name and Email Fields in One Row -->
                 <div class="col-11">
-                    <input type="text" name="_name" id="_name" placeholder="Your Name" >
+                    <input type="text" name="_name" id="_name" placeholder="Your Name" required>
                 </div>
                 <div class="col-11">
-                    <input type="email" name="_replyto" id="_replyto" placeholder="Your E-mail">
+                    <input type="email" name="_replyto" id="_replyto" placeholder="Your E-mail" required>
                 </div>
             
                 
                 <!-- Message Field -->
                 <div class="col-11">
-                    <textarea name="message" id="message" placeholder="Your message or question here..." rows="6"></textarea>
+                    <textarea name="message" id="message" required placeholder="Your message or question here..." rows="6"></textarea>
                 </div>
             
                 <button class="button margin-t-1" type="submit">Send Message</button>
