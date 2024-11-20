@@ -30,6 +30,10 @@ Accent Font: Corinthia
 
 img { max-width: 100%; }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /*  Temporary Styles------ */
 
@@ -765,51 +769,6 @@ form .button {
   .slick-dots li.slick-active button::before {
          color: #C7A930;
   }
-
-
-  
-/* Ticker Banner slider Styles-------------------*/
-  
-.text-block {
-    padding: 0.9%;
-}
-
-:root {
---bannerBlockLength: 280px;
---bannerBlockTime: 5s;
-}
-
-.container-ticker-banner{
-    overflow-X: hidden;
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #C7A930;
-    color: white;
-    /* text-transform: uppercase; */
-    font-weight: 400;
-    font-size: 1.2rem;
-  
-}
-.tickerBanner{
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: center;
-}
-  
-.tickerBanner div{
-    display: inline-block;
-    padding: 1.4vw;
-    flex-shrink: 0;
-    position: relative;
-    animation: ticker 3s infinite linear;
-    animation-duration: var(--bannerBlockTime), 3s;
-}
-  
-@keyframes ticker {
-    from { left: var(--bannerBlockLength); } /* Start off-screen right */
-    to   { left: 0; } /* End at 0, off-screen left */
-}
-  
 
 
 
