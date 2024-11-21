@@ -114,10 +114,17 @@
         <h2 class="uppercase center"> Reach out now</h2>
         <div class="padded-t-1">
 
-            <form class="grid-spaceAround" name="contact" method="POST" data-netlify="true" onSubmit="submit">
+            <form class="grid-spaceAround" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" onSubmit="submit" action="/success/">
                 <!-- Hidden input field to name the form for Netlify -->
                 <input type="hidden" name="form-name" value="contact">
                 
+                <!-- This is only for spam protection -->
+                <p class="hidden">
+                    <label>
+                      Don’t fill this out if you’re human: <input name="bot-field" />
+                    </label>
+                  </p>
+
                 <!-- Name and Email Fields in One Row -->
                 <div class="col-11">
                     <input type="text" name="_name" id="_name" placeholder="Your Name" required>

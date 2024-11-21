@@ -127,6 +127,8 @@ body {
 .tall-100 { min-height: 100vh; }
 
 
+.hidden { display:none; }
+
 
 /* Typography font styles———-————————-—*/
 

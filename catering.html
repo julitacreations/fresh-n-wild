@@ -54,8 +54,16 @@ seo:
             <h2 class="uppercase center"> Contact us for a free quotation</h2>
             <div class="padded-t-1">
 
-                <form class="grid-spaceAround" name="contact" method="POST" data-netlify="true">
+                <form class="grid-spaceAround" name="event-inquiry" method="POST" netlify-honeypot="bot-field" data-netlify="true" onSubmit="submit" action="/success/">
                     <input type="hidden" name="form-name" value="event-inquiry">
+                    
+                    <!-- This is only for spam protection -->
+                    <p class="hidden">
+                        <label>
+                        Don’t fill this out if you’re human: <input name="bot-field" />
+                        </label>
+                    </p>
+                    
                     <!-- Name and Email Fields in One Row -->
                     <div class="col-5_sm-11">
                         <label for="_name">Your Name*</label>
