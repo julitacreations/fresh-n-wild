@@ -530,9 +530,22 @@ a.credit-link {
     background-position: 35% 50%;
 }
 
-/* image sliding container----------- */
+/* image classes for what's on page container----------- */
 
 
+.event {
+position: relative;
+}
+  
+/* Style the image to fill the square container */
+.square img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+}
 
 
 
