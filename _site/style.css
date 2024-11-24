@@ -429,7 +429,7 @@ a.credit-link {
 /* Gradient Overlay ----- */ 
 
 .bg-overlay-gradient::before { 
-    background: linear-gradient(-30deg, rgba(25, 21, 21, 0.5), rgba(0,0,0,0));
+    background: linear-gradient(-30deg, rgba(25, 21, 21, 0.7), rgba(0,0,0,0.4));
 } 
 
 
@@ -493,6 +493,11 @@ a.credit-link {
     z-index: 2;
 }
 
+.bg-image-main-hero { 
+    background-image: url('images/fresh-n-wild-hero.jpg');
+    background-position: 50% 25%;
+}
+
 .bg-image-hero { background-image: url('images/fresh-wild-hero.jpg'); }
 .bg-image-bar { background-image: url('images/fresh-wild-bar.jpg'); }
 .bg-image-breakfast { background-image: url('images/fresh-wild-breakfast.jpg'); }
@@ -512,6 +517,18 @@ a.credit-link {
 .bg-image-mezze-flat { background-image: url('images/fresh-wild-flatlay-mezze.jpg'); }
 .bg-image-mezze { background-image: url('images/fresh-wild-mezze.jpg'); }
 
+.bg-image-breakfast-1 { background-image: url('images/fresh-n-wild-breakfast1.jpg'); }
+.bg-image-breakfast-2 { background-image: url('images/fresh-n-wild-2-breakfast.jpg'); }
+.bg-image-drinks { background-image: url('images/fresh-n-wild-drinks.jpg'); }
+
+.bg-image-music-1 { background-image: url('images/fresh-n-wild-music.jpg'); }
+.bg-image-music-2 { background-image: url('images/fresh-n-wild-musicianjpg.jpg'); }
+.bg-image-pizza { background-image: url('images/fresh-n-wild-pizza.jpg'); }
+.bg-image-restaurant-hero { background-image: url('images/fresh-n-wild-restaurant-hero.jpg'); }
+.bg-image-pizza-2 { 
+    background-image: url('images/fresh-n-wild-piz.jpg');
+    background-position: 35% 50%;
+}
 
 /* image sliding container----------- */
 
