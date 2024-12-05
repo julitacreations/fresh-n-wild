@@ -497,6 +497,10 @@ a.credit-link {
     background-image: url('images/fresh-n-wild-hero.jpg');
     background-position: 50% 25%;
 }
+.bg-music-band { 
+    background-image: url('images/livemusicband.jpg');
+    background-position: 50% 39%;
+ }
 
 .bg-image-hero { background-image: url('images/fresh-wild-hero.jpg'); }
 .bg-image-bar { background-image: url('images/fresh-wild-bar.jpg'); }
