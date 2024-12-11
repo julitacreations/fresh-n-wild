@@ -378,12 +378,13 @@ a.credit-link {
 
 .hamburger-button {
     cursor: pointer;
+    color: white;
     padding: 0 0.5rem;
     display: inline-block;
     font-size: 2.6rem;
     line-height: 2.6;
     position: relative;
-    right: 0.5rem;
+    right: 0.8rem;
     z-index: 3;
 }
 
