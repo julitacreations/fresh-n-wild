@@ -165,6 +165,10 @@ h2 span {
     text-transform: none;
 }
 
+h3 { 
+    font-size: 1.7rem;
+     font-weight: 500;
+}
 h4 { font-size: 1.4rem;}
 h5 { font-size: 1rem;}
 
@@ -558,6 +562,10 @@ position: relative;
 .icon       { max-width: 7%; }
 .icon-2     { max-width: 28%; }
 .icon-size  { max-width: 100%; }
+.icon-tapmeal { 
+    max-width: 60%; 
+    margin-left: -0.5rem;
+}
 
 
 .icon-small {
@@ -951,6 +959,8 @@ form .button {
     .social-links img {
         max-width: 33%;
     }
+
+    .icon-tapmeal { max-width: 100%; }
     
 
 
