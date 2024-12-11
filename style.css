@@ -974,8 +974,8 @@ form .button {
     .slick-prev { left: 18px; }
 
     .circle-background::before {
-        width: 33%;                   /* Responsive width, adjust percentage as needed */
-        padding-bottom: 33%;          /* Ensures circle height stays proportional to width */
+        width: 25%;                   /* Responsive width, adjust percentage as needed */
+        padding-bottom: 25%;          /* Ensures circle height stays proportional to width */
     }
 
     .social-links a {
@@ -1050,8 +1050,8 @@ form .button {
     .slick-prev { left: 14px; }
 
     .circle-background::before {
-        width: 50%;                   /* Responsive width, adjust percentage as needed */
-        padding-bottom: 50%;          /* Ensures circle height stays proportional to width */
+        width: 40%;                   /* Responsive width, adjust percentage as needed */
+        padding-bottom: 40%;          /* Ensures circle height stays proportional to width */
     }
     
 
