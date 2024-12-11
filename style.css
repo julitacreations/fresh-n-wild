@@ -539,6 +539,30 @@ a.credit-link {
     background-position: 35% 50%;
 }
 
+
+/* Temp images to replace one images are received */
+
+.temp-image-1 { background-image: url('images/temp-images1.jpg'); }
+.temp-image-2 { background-image: url('images/temp-images2.jpg'); }
+.temp-image-3 { background-image: url('images/temp-images3.jpg'); }
+.temp-image-4 { background-image: url('images/temp-images4.jpg'); }
+.temp-image-5 { background-image: url('images/temp-images5.jpg'); }
+.temp-image-6 { background-image: url('images/temp-images6.jpg'); }
+.temp-image-7 { background-image: url('images/temp-images7.jpg'); }
+.temp-image-8 { background-image: url('images/temp-images8.jpg'); }
+.temp-image-9 { background-image: url('images/temp-images9.jpg'); }
+.temp-image-10 { background-image: url('images/temp-images10.jpg'); }
+.temp-image-11 { background-image: url('images/temp-images-11.jpg'); }
+.temp-image-13 { background-image: url('images/temp-images13.jpg'); }
+.temp-image-14 { background-image: url('images/temp-images14.jpg'); }
+.temp-image-15 { background-image: url('images/temp-images15.jpg'); }
+.temp-image-16 { background-image: url('images/temp-images16.jpg'); }
+.temp-image-17 { background-image: url('images/temp-images17.jpg'); }
+.temp-image-18 { background-image: url('images/temp-images18.jpg'); }
+
+
+
+
 /* image classes for what's on page container----------- */
 
 
