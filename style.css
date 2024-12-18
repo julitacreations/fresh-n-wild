@@ -8,7 +8,6 @@ golden accent: C7A930
 Main Font: Rubik
 Accent Font: Corinthia
 
-
 */
 
 /*  CSS reset */
@@ -22,11 +21,9 @@ Accent Font: Corinthia
 [class*="col-"], [class*="col_"], [class~="col"]  {padding:0;}
 [class*="grid-"], [class*="grid_"], [class~="grid"] {margin:0;} 
 
-
 [class*=grid] {
     margin:0;
 }
-
 
 img { max-width: 100%; }
 
@@ -35,25 +32,8 @@ html {
 }
 
 
-/*  Temporary Styles------ */
 
-/* * {
-    padding: 0.5rem;
-    border: 2px solid rgb(200,200,200);
-} 
-
-html,  
-body {
-    border: none;
-} 
-
- h1,h2,h3,h4,h5,h6,p, a {
-    border: 2px solid rgb(179, 84, 84);
-}  */
-
-
-
-/* Reusable utility classes——————————-—*/
+/* Reusable utility classes—————----—————-—*/
 
 
 /* Padding Utility Classes */ 
@@ -89,7 +69,7 @@ body {
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-right: 0; }
 
-/* Margin Utility Classes */ 
+/* Margin Utility Classes --------*/ 
 
 .margin-t { margin-top: 5%; }
 .margin-b { margin-bottom: 5%; }
@@ -117,7 +97,7 @@ body {
 .margin-t-05 { margin-top: 0.5rem;}
 .margin-b-05 { margin-bottom: 0.5rem;}
 
-/* Height Classes */
+/* Height Classes ---------*/
 
 .tall-50 { min-height: 50vh; }
 .tall-60 { min-height: 60vh; }
@@ -147,7 +127,6 @@ h1 {
     font-weight: 400;
     line-height: 1;
 }
-
 
 h2, h3, h4, h5, h6 {
 	line-height: 1.1;
@@ -199,6 +178,7 @@ a:hover {
     color:#C7A930;
 }
 
+/* Button styles———-—*/
 .button {
     display: inline-block;
     text-transform: uppercase;
@@ -237,7 +217,7 @@ a:hover {
 
 
 
-/* General typography & universal styles——————-———*/
+/* General typography & universal styles——————-------———*/
 
 .bg-featured { background-color: #EEE4C5;  }
 .bg-light    { background-color: white;}
@@ -343,8 +323,6 @@ footer nav a {
     justify-content: center;
 }
 
-
-
 .social-links img {
     max-width: 18%;
     margin-left: 0;
@@ -359,22 +337,21 @@ footer nav a {
 }
 
 
-
-/* Style only the copyright section ---*/
+/* copyright section -----*/
 .copyright-section .subtle {
     /* font-style: italic; */
     font-size: 0.7rem;
     font-weight: 300;
 }
 
-/* Ensure the copyright and the link are in the same line ----*/
+/* Ensure the copyright and the link are in the same line */
 .copyright-section .subtle, 
 a.credit-link {
     display: inline;
 }
 
 
-/* Mobile menu button styles ----------------*/
+/* Mobile menu button styles ------------------*/
 
 .hamburger-button {
     cursor: pointer;
@@ -411,12 +388,12 @@ header .hamburger-button {
 
 .hamburger-button.active {
     color: #C7A930;
-  }
+}
 
 
 
 
-/* Header banner overlay ------------*/
+/* Header banner overlay --------------*/
 
 .bg-overlay {
     position: relative;
@@ -452,7 +429,6 @@ header .hamburger-button {
 }
 
 
-
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 .landscape { padding-bottom: 65%; }
 .portrait { padding-bottom: 125%; }
@@ -461,16 +437,18 @@ header .hamburger-button {
 
 
 /* Background Position ----*/
-
 .bg-pos-t       { background-position: top; }
 .bg-pos-b       { background-position: bottom; }
 .bg-pos-l       { background-position: left; }
 .bg-pos-r       { background-position: right; }
 .bg-pos-unique  { background-position: 50% 68%; } 
 
+.capped-width {
+    max-width: 1000px;
+    margin: auto;
+}
 
-/* Catering section styles----- */
-
+/* Catering introduction styles----- */
 .catering-section .catering-images {
     position: relative; /* Parent element needs relative positioning for absolute children */
 }
@@ -543,7 +521,7 @@ header .hamburger-button {
 }
 
 
-/* Temp images to replace one images are received */
+/* Temp images to replace once images are received */
 
 .temp-image-1 { background-image: url('images/temp-images1.jpg'); }
 .temp-image-2 { background-image: url('images/temp-images2.jpg'); }
@@ -566,8 +544,7 @@ header .hamburger-button {
 
 
 
-/* image classes for what's on page container----------- */
-
+/* Image classes for What's on/calendar page container----------- */
 
 .event {
 position: relative;
@@ -584,7 +561,6 @@ position: relative;
 }
 
 
-
 /* icons-------------------- */
 
 .icon       { max-width: 7%; }
@@ -594,7 +570,6 @@ position: relative;
     max-width: 60%; 
     margin-left: -0.5rem;
 }
-
 
 .icon-small {
     width: 33px;   /* Adjust the size of the icon */
@@ -624,7 +599,6 @@ position: relative;
     padding: 0;                   /* Ensure no extra padding */
 }
 
-
 .circle-background::before {
     content: "";                  /* Empty content for the circle */
     position: absolute;           /* Absolutely positioned relative to the parent */
@@ -639,11 +613,6 @@ position: relative;
 }
 
 
-
-.capped-width {
-    max-width: 1000px;
-    margin: auto;
-}
 
 /* default menu introduction on home page - h3, image order */
 .flex-flip-sm {
@@ -694,21 +663,11 @@ position: relative;
     color: #C7A930; 
 }
 
-
 .price { 
     display: block;
     font-weight: 500;
     font-size: 1.3rem;
     text-align: right;
-}
-
-.menu p {
-    margin-top: 0.5rem;
-    font-size: 1rem;
-}
-
-.menu h3 {
-    margin: 1rem 0;
 }
 
 .border-line {
@@ -720,9 +679,9 @@ position: relative;
 }
 
 
-/* Catering Contact Form Styles ---------------- */
+/* Catering Contact Form Styles ----------------------- */
 
-/*-- Contact Form & Button Styles -----------------------------*/
+/*-- Contact Form & Button Styles -----------*/
 form input, 
 form textarea {
   width: 100%;
@@ -796,51 +755,51 @@ form .button {
 
 /* Slider styles ----------------------*/
   
-  .slider-container {
-    padding: 5%;
-  }
-  
-  .slider-item {
-    padding: 0.9rem;
-    display: none;
-  }
-  
-  .slider-item:first-child {
-    display: block;
-  }
-  
-  /*Arrows*/
-  .slick-next { right: 25px;}
-  .slick-prev { left: 25px; }
+.slider-container {
+padding: 5%;
+}
 
+.slider-item {
+padding: 0.9rem;
+display: none;
+}
+
+.slider-item:first-child {
+display: block;
+}
+
+/*Arrows*/
+.slick-next { right: 25px;}
+.slick-prev { left: 25px; }
+
+
+.slick-next::before, 
+.slick-prev::before {
+    font-family: inherit;
+    font-size: 30px;
+    line-height: 1;
+    opacity: .95;
+    color: #C7A930;
+}
   
-  .slick-next::before, 
-  .slick-prev::before {
-        font-family: inherit;
-        font-size: 30px;
-        line-height: 1;
-        opacity: .95;
+/*DOTS*/
+.slick-dots {
+        bottom: 10px;
+        left: 0; /* This align the dots perfectly to the center, do not delete */
+}
+
+.slick-dots li,
+.slick-dots li button {
+        width: 10px;
+}
+
+.slick-dots li button::before {
+color: #231F1F;
+}
+
+.slick-dots li.slick-active button::before {
         color: #C7A930;
-  }
-  
-  /*DOTS*/
-  .slick-dots {
-         bottom: 10px;
-         left: 0; /* This align the dots perfectly to the center, do not delete */
-  }
-  
-  .slick-dots li,
-  .slick-dots li button {
-         width: 10px;
-  }
-  
-  .slick-dots li button::before {
-    color: #231F1F;
-  }
-  
-  .slick-dots li.slick-active button::before {
-         color: #C7A930;
-  }
+}
 
 
 
@@ -900,7 +859,6 @@ form .button {
         max-width: 26%;
     }
 
-  
 
 }
 
@@ -990,7 +948,6 @@ form .button {
 
     .icon-tapmeal { max-width: 100%; }
     
-
 
 }
 
