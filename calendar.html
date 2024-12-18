@@ -1,6 +1,31 @@
 ---
 layout: default
 title: Fresh ‘n Wild - What’s happening at Utopia
+calendar:
+ - img: "/images/pizza_special_2for1.jpg"
+   alt: "2 for 1 Pizza special at Fresh 'n Wild"
+ - img: "/images/fresh-n-wild-pizza.jpg"
+   alt: "Pizza"
+ - img: "/images/slowtowncoffee.jpg"
+   alt: "Slowtown Coffee"
+ - img: "/images/fresh-wild-burger.jpg"
+   alt: "Burger special"
+ - img: "/images/burger_special2for1_freshnwild.jpg"
+   alt: "2for1 Burger special on Thursdays at Fresh 'n Wild"
+ - img: "/images/mimosabrunch_freshnwild.jpg"
+   alt: "Mimosa Brunch on weekends"
+ - img: "/images/cocktail_special_weekend.jpg"
+   alt: "Cocktail madness on weekends at Fresh 'n Wild"
+ - img: "/images/fresh-n-wild-drinks.jpg"
+   alt: "celebrating with a cheers"
+ - img: "/images/live_music_Freshnwild.jpg"
+   alt: "Live music in the Fresh 'n Wild Garden"
+ - img: "/images/steak_freshnwild.jpg"
+   alt: "Rib Eye Steak special"
+ - img: "/images/roast_sundays_freshnwild.jpg"
+   alt: "Roast"
+ - img: "/images/roast_sundays_at_freshnwild.jpg"
+   alt: "Sunday Roast Special"
 seo:
   title: Fresh 'n Wild Events & Specials | Live Music, Dining Deals & More in Windhoek
   description: Discover what's happening at Fresh 'n Wild this month! From pizza specials to burger nights and live music evenings, explore exciting events and promotions in Windhoek.
@@ -19,76 +44,20 @@ seo:
       
     </section>
 
-
     <!-- new image responsive sections using img -->
     <section class="grid-center padded-lg center">
-        <h2 class="col-12 uppercase">December 2024</h2>
+        <h2 class="col-12 uppercase">Januray Specials and Events 2025</h2>
 
+        {% for item in page.calendar %}
         <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/pizza_special_2for1.jpg" class="lazy" alt="2 for 1 Pizza special at Fresh 'n Wild">
-            </div>
+        <div class="square event">
+            <img data-src="{{ item.img }}" class="lazy" alt="{{ item.alt }}">
         </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/fresh-n-wild-pizza.jpg" class="lazy" alt="Pizza">
-            </div>
         </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/slowtowncoffee.jpg" class="lazy" alt="Slowtown Coffee">
-            </div>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/fresh-wild-burger.jpg" class="lazy" alt="Burger special">
-            </div>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/burger_special2for1_freshnwild.jpg" class="lazy" alt="2for1 Burger special on Thursdays at Fresh 'n Wild">
-            </div>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/mimosabrunch_freshnwild.jpg" class="lazy" alt="Mimosa Brunch on weekends">
-            </div>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/cocktail_special_weekend.jpg" class="lazy" alt="Cocktail madness on weekends at Fresh 'n Wild">
-            </div>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/fresh-n-wild-drinks.jpg" class="lazy" alt="celebrating with a cheers">
-            </div>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/live_music_Freshnwild.jpg" class="lazy" alt="Live music in the Fresh 'n Wild Garden">
-            </div>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/steak_freshnwild.jpg" class="lazy" alt="Rib Eye Steak special">
-            </div>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/roast_sundays_freshnwild.jpg" class="lazy" alt="Roast">
-            </div>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-1">
-            <div class="square event">
-                <img data-src="/images/roast_sundays_at_freshnwild.jpg" class="lazy" alt="Sunday Roast Special">
-            </div>
-        </div>
+        {% endfor %}
 
         <p class="small-text padded-t-1">Terms and conditions apply. E&OE.</p>
     </section>
-
-
 
 
     
