@@ -1,14 +1,18 @@
 /*  NOTES
 
-dark bg colour: 231F1F
-light accent colour: EEE4C5
-light background colour: FCFAF5
-golden accent: C7A930
-
 Main Font: Rubik
 Accent Font: Corinthia
 
 */
+
+:root {
+    --primary-accent: #C7A930;
+    --dark: #231F1F;
+    --light-accent: #EEE4C5;
+    --light-background: #FCFAF5;
+}
+ 
+
 
 /*  CSS reset */
 * {
@@ -114,8 +118,8 @@ html {
 
 body {
     font-family: 'Rubik', sans-serif;
-    color:#231F1F;
-    background-color: #FCFAF5;
+    color: var(--dark);
+    background-color: var(--light-background);
 }
 
 html, body {
@@ -139,7 +143,7 @@ h2 {
 }
 h2 span {
     font-family: 'Corinthia', cursive;
-    color: #C7A930;
+    color: var(--primary-accent);
     font-size: 4rem;
     text-transform: none;
 }
@@ -175,7 +179,7 @@ a {
 }
 
 a:hover {
-    color:#C7A930;
+    color: var(--primary-accent);
 }
 
 /* Button styles———-—*/
@@ -184,15 +188,15 @@ a:hover {
     text-transform: uppercase;
     font-size: 1.2rem;
     text-decoration: none;
-    border: 1.5px solid #C7A930;
-    color: #C7A930;
+    border: 1.5px solid var(--primary-accent);
+    color: var(--primary-accent);
     letter-spacing: 0.03em;
     padding: 0.6rem 1rem;
     transition: 0.3s;
 }
 
 .button:hover {
-    background-color: #C7A930;
+    background-color: var(--primary-accent);
     color: white;
 }
 
@@ -201,30 +205,30 @@ a:hover {
     text-transform: uppercase;
     font-size: 1.2rem;
     text-decoration: none;
-    border: 1.5px solid #C7A930;
+    border: 1.5px solid var(--primary-accent);
     color: white;
-    background-color: #C7A930;
+    background-color: var(--primary-accent);
     letter-spacing: 0.03em;
     padding: 0.6rem 1rem;
     transition: 0.3s;
 }
 
 .button-dark:hover {
-    background-color: #231F1F;
-    color: #C7A930;
-    border: 1.5px solid #231F1F;
+    background-color:  var(--dark);
+    color: var(--primary-accent);
+    border: 1.5px solid  var(--dark);
 }
 
 
 
 /* General typography & universal styles——————-------———*/
 
-.bg-featured { background-color: #EEE4C5;  }
+.bg-featured { background-color:  var(--light-accent); }
 .bg-light    { background-color: white;}
-.bg-dark     { background-color: #231F1F;  }
+.bg-dark     { background-color:  var(--dark);  }
 
 .light-text { color: white; } 
-.featured-text  { color: #C7A930; }
+.featured-text  { color: var(--primary-accent); }
 
 .featured-font { font-family: 'Corinthia', cursive; }
 
@@ -262,7 +266,7 @@ header a {
 }
 
 header a:hover {
-    color: #C7A930;
+    color: var(--primary-accent);
 }
 
 header .logo {
@@ -387,7 +391,7 @@ header .hamburger-button {
 }
 
 .hamburger-button.active {
-    color: #C7A930;
+    color: var(--primary-accent);
 }
 
 
@@ -422,7 +426,7 @@ header .hamburger-button {
 
 /* Images Styles—————————-—— */
 .bg-image {
-    background-color: #EEE4C5;
+    background-color:  var(--light-accent);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -647,7 +651,7 @@ position: relative;
     content: '+';
     position: absolute;
     right: 8px;
-    color:#C7A930;
+    color: var(--primary-accent);
 }
 
 .accordion-header.active::after {
@@ -660,7 +664,7 @@ position: relative;
  }
 
  .accordion-header.active {
-    color: #C7A930; 
+    color: var(--primary-accent); 
 }
 
 .price { 
@@ -672,7 +676,7 @@ position: relative;
 
 .border-line {
     border: none;
-    border-bottom: 1.1px solid #C7A930;
+    border-bottom: 1.1px solid var(--primary-accent);
     padding: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -690,12 +694,12 @@ form textarea {
   font-family: inherit;
   font-size: 0.9rem;
   display: block;
-  border: 1px solid #231F1F;
+  border: 1px solid  var(--dark);
 }
 
 input:focus,
 textarea:focus {
-    border: 1px solid #C7A930;
+    border: 1px solid var(--primary-accent);
     outline: none;
 }
 form input {
@@ -714,8 +718,8 @@ label {
 
 form .button {
     appearance: none;
-    border: 1.5px solid #C7A930;
-    background-color: #C7A930;
+    border: 1.5px solid var(--primary-accent);
+    background-color: var(--primary-accent);
     color: white;
     letter-spacing: 0.04em;
     padding: 0.5rem 1rem;
@@ -779,7 +783,7 @@ display: block;
     font-size: 30px;
     line-height: 1;
     opacity: .95;
-    color: #C7A930;
+    color: var(--primary-accent);
 }
   
 /*DOTS*/
@@ -794,11 +798,11 @@ display: block;
 }
 
 .slick-dots li button::before {
-color: #231F1F;
+color:  var(--dark);
 }
 
 .slick-dots li.slick-active button::before {
-        color: #C7A930;
+        color: var(--primary-accent);
 }
 
 
