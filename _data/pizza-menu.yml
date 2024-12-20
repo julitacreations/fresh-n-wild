@@ -1,49 +1,49 @@
-pizza_menu:
- - name: Garlic Pizza Bread
-   description: Peppadew | feta | rocket
-   price: N$85
- - name: Margherita Pizza
-   description: Mozzarella | tomato base | pizza herbs
-   price: N$85
- - name: Pepperoni
-   description: Feta | garlic
-   price: N$155
- - name: Wild
-   description: Ham | pineapple
-   price: N$155
- - name: Othello
-   description: Ham | mushroom
-   price: N$155
- - name: Bella
-   description: Bacon | feta | avo
-   price: N$165
- - name: Butternutter
-   description: Roasted butternut | feta | cherry tomato | rocket | toasted seeds | balsamic reduction
-   price: N$165
- - name: Caprese
-   description: Buffalo mozzarella | tomato | avo | balsamic reduction | basil pesto
-   price: N$175
- - name: Princess
-   description: Grilled chicken breast | onion | bacon | feta | avocado | sweet chilli sauce
-   price: N$175
- - name: Mexican
-   description: Spicy mince | green pepper | onion | garlic | chilli
-   price: N$170
- - name: Best of Both
-   description: Mushroom | onion | green pepper | bacon | ham
-   price: N$179
- - name: Clausi
-   description: Spinach | mascarpone | pepperoni | balsamic reduction
-   price: N$179
- - name: Utopia
-   description: Slow roasted pulled pork | mushrooms | onion | homemade sticky BBQ sauce
-   price: N$179
- - name: Fresh
-   description: Mozzarella | cherry tomato | parma ham | rocket | balsamic reduction | shredded parmesan
-   price: N$195
- - name: Smoking Salmon
-   description: Smoked salmon | cream cheese | avo
-   price: N$205
- - name: Extra toppings
-   description: Avo (SQ), pineapple (N$15), bacon (N$40), Peppadew (N$15), parma ham (N$75), mozzarella (N$40), chicken (N$25), ham (N$40)
-   price: 
+pizza-menu:
+- name: Garlic Pizza Bread
+  description: Peppadew | feta | rocket
+  price: N$85
+- name: Margherita Pizza
+  description: Mozzarella | tomato base | pizza herbs
+  price: N$85
+- name: Pepperoni
+  description: Feta | garlic
+  price: N$155
+- name: Wild
+  description: Ham | pineapple
+  price: N$155
+- name: Othello
+  description: Ham | mushroom
+  price: N$155
+- name: Bella
+  description: Bacon | feta | avo
+  price: N$165
+- name: Butternutter
+  description: Roasted butternut | feta | cherry tomato | rocket | toasted seeds | balsamic reduction
+  price: N$165
+- name: Caprese
+  description: Buffalo mozzarella | tomato | avo | balsamic reduction | basil pesto
+  price: N$175
+- name: Princess
+  description: Grilled chicken breast | onion | bacon | feta | avocado | sweet chilli sauce
+  price: N$175
+- name: Mexican
+  description: Spicy mince | green pepper | onion | garlic | chilli
+  price: N$170
+- name: Best of Both
+  description: Mushroom | onion | green pepper | bacon | ham
+  price: N$179
+- name: Clausi
+  description: Spinach | mascarpone | pepperoni | balsamic reduction
+  price: N$179
+- name: Utopia
+  description: Slow roasted pulled pork | mushrooms | onion | homemade sticky BBQ sauce
+  price: N$179
+- name: Fresh
+  description: Mozzarella | cherry tomato | parma ham | rocket | balsamic reduction | shredded parmesan
+  price: N$195
+- name: Smoking Salmon
+  description: Smoked salmon | cream cheese | avo
+  price: N$205
+- name: Extra toppings
+  description: Avo (SQ), pineapple (N$15), bacon (N$40), Peppadew (N$15), parma ham (N$75), mozzarella (N$40), chicken (N$25), ham (N$40)
+  price: 
