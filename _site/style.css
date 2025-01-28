@@ -495,9 +495,6 @@ header .hamburger-button {
 .bg-image-hero { background-image: url('images/fresh-wild-hero.jpg'); }
 .bg-image-bar { background-image: url('images/fresh-wild-bar.jpg'); }
 .bg-image-breakfast { background-image: url('images/fresh-wild-breakfast.jpg'); }
-.bg-image-eggs { background-image: url('images/fresh-wild-eggs.jpg'); }
-.bg-image-eggstoast { background-image: url('images/fresh-wild-eggsontoast.jpg'); }
-.bg-image-french-toast { background-image: url('images/fresh-wild-frenchtoast.jpg'); }
 .bg-image-cappuccino { background-image: url('images/fresh-wild-red-cappuccino.jpg'); }
 
 .bg-image-cake { background-image: url('images/fresh-wild-cake.jpg'); }
@@ -506,15 +503,12 @@ header .hamburger-button {
 .bg-image-bowl { background-image: url('images/fresh-wild-bowl.jpg'); }
 .bg-image-burger { background-image: url('images/fresh-wild-burger.jpg'); }
 .bg-image-steak { background-image: url('images/fresh-wild-steak.jpg'); }
-.bg-image-flatwrap { background-image: url('images/fresh-wild-flatwrap.jpg'); }
 .bg-image-mezze-flat { background-image: url('images/fresh-wild-flatlay-mezze.jpg'); }
 .bg-image-mezze { background-image: url('images/fresh-wild-mezze.jpg'); }
 
-.bg-image-breakfast-1 { background-image: url('images/fresh-n-wild-breakfast1.jpg'); }
 .bg-image-breakfast-2 { background-image: url('images/fresh-n-wild-2-breakfast.jpg'); }
 .bg-image-drinks { background-image: url('images/fresh-n-wild-drinks.jpg'); }
 
-.bg-image-music-1 { background-image: url('images/fresh-n-wild-music.jpg'); }
 .bg-image-music-2 { background-image: url('images/fresh-n-wild-musicianjpg.jpg'); }
 .bg-image-pizza { background-image: url('images/fresh-n-wild-pizza.jpg'); }
 .bg-image-restaurant-hero { background-image: url('images/fresh-n-wild-restaurant-hero.jpg'); }
