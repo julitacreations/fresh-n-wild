@@ -492,14 +492,12 @@ header .hamburger-button {
     background-position: 50% 39%;
  }
 
-.bg-image-hero { background-image: url('images/fresh-wild-hero.jpg'); }
 .bg-image-bar { background-image: url('images/fresh-wild-bar.jpg'); }
 .bg-image-breakfast { background-image: url('images/fresh-wild-breakfast.jpg'); }
 .bg-image-cappuccino { background-image: url('images/fresh-wild-red-cappuccino.jpg'); }
 
 .bg-image-cake { background-image: url('images/fresh-wild-cake.jpg'); }
 
-.bg-image-wrap { background-image: url('images/fresh-wild-tortilla.jpg'); }
 .bg-image-bowl { background-image: url('images/fresh-wild-bowl.jpg'); }
 .bg-image-burger { background-image: url('images/fresh-wild-burger.jpg'); }
 .bg-image-steak { background-image: url('images/fresh-wild-steak.jpg'); }
