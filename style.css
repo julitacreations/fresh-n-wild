@@ -524,6 +524,19 @@ header .hamburger-button {
     background-position: 35% 50%;
 }
 
+.shop-banner { background-image: url('images/shopbanner.jpg'); }
+.catering-1 { background-image: url('images/freshnwild-catering1.jpg'); }
+.catering-2 { background-image: url('images/freshnwild-catering2.jpg'); }
+.catering-3 { background-image: url('images/freshnwild-catering3.jpg');}
+.catering-4 { background-image: url('images/freshnwild-catering4.jpg'); }
+.catering-5 { background-image: url('images/freshnwild-catering5.jpg'); }
+.catering-6 { background-image: url('images/freshnwild-catering6.jpg'); }
+.catering-7 { background-image: url('images/freshnwild-catering7.jpg'); }
+
+.utopia-outdoor { background-image: url('images/freshnwild-utopia.jpg'); }
+.mariental-shop { background-image: url('images/freshnwildshop.jpg'); }
+
+
 
 /* Temp images to replace once images are received */
 
