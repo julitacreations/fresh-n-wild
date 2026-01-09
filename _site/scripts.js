@@ -160,3 +160,7 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("orientationChange", lazyload);
   }
 })
+
+
+// Automatic footer year updating
+document.getElementById("year").innerHTML = new Date().getFullYear();
